@@ -102,17 +102,11 @@ The doubling time is 18.59 years.</p></solution></example>
 
 <subsubsection><title>Examples</title>
 
-<example>
-    <statement>
-        <p>The graph shows the population, <m>P</m>, of a herd of llamas <m>t</m> years after 2000.<ol label="a">
-            <li>How many llamas were there in 2000?</li>
-            <li>What is the doubling time for the population?</li>
-            <li>What is the annual growth rate for the population?</li></ol>
-        </p>
-        <sidebyside width="35%">
-            <image xml:id="fig-llama-population">
-                <description>exponential growth</description>
-                <latex-image>
+<example><statement><p>The graph shows the population, <m>P</m>, of a herd of llamas <m>t</m> years after 2000.<ol label="a">
+    <li>How many llamas were there in 2000?</li>
+    <li>What is the doubling time for the population?</li>
+    <li>What is the annual growth rate for the population?</li></ol></p>
+<sidebyside width="35%"><image xml:id="fig-llama-population"><description>exponential growth</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
@@ -130,26 +124,16 @@ The doubling time is 18.59 years.</p></solution></example>
                 }
                 \draw[samples=65,domain={0:10},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {1.5* 2^(\x/4) });
                 \end{tikzpicture}]]>
-                </latex-image>
-            </image>
-        </sidebyside>
-    </statement>
-    <solution>
-        <p><ol label="a">
-            <li> The initial value of the population is given by the <m>P</m>-intercept of the graph, <m>(0,15)</m>. There were 15 llamas in 2000.</li>
-            <li>Look for the time when the initial llama population doubles. When <m>t=4,~P=30</m>, and when <m>t=8,~P=60</m>, so the llama population doubles every 4 years.</li>
-            <li>The growth factor for the population is <m>2^{1/4} = 1.189</m>, so the annual growth rate is 18.9%.</li></ol>
-        </p>
-    </solution>
-</example>
+                </latex-image></image></sidebyside></statement>
+    
+<solution><p><ol label="a">
+    <li> The initial value of the population is given by the <m>P</m>-intercept of the graph, <m>(0,15)</m>. There were 15 llamas in 2000.</li>
+    <li>Look for the time when the initial llama population doubles. When <m>t=4,~P=30</m>, and when <m>t=8,~P=60</m>, so the llama population doubles every 4 years.</li>
+    <li>The growth factor for the population is <m>2^{1/4} = 1.189</m>, so the annual growth rate is 18.9%.</li></ol></p>
+</solution></example>
 
-<example>
-    <statement>
-        <p>Write a decay law for the graph shown below, where <m>t</m> is in hours and <m>N</m> is in milligrams.</p>
-        <sidebyside width="40%">
-            <image xml:id="fig-exponential-decay">
-                <description>exponential decay</description>
-                <latex-image>
+<example><statement><p>Write a decay law for the graph shown below, where <m>t</m> is in hours and <m>N</m> is in milligrams.</p>
+<sidebyside width="40%"><image xml:id="fig-exponential-decay"><description>exponential decay</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
@@ -167,14 +151,9 @@ The doubling time is 18.59 years.</p></solution></example>
                 }
                 \draw[samples=65,domain={0:15},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {12* 2^(-\x/5) });
                 \end{tikzpicture}]]>
-                </latex-image>
-            </image>
-        </sidebyside>
-    </statement>
-    <solution>
-        <p>The initial value is given by the vertical intercept of the graph, <m>(0,600)</m>, so <m>N_0 = 600</m>.</p>  <p>When <m>t=5,~N=300</m>, so the half-life of the substance is 5 hours. Thus the decay law is <m>N(t)=600(0.5)^{t/5}</m>, or <m>N(t)=600(0.87)^t</m>.</p>
-    </solution>
-</example> 
+                </latex-image></image></sidebyside></statement>
+    
+<solution><p>The initial value is given by the vertical intercept of the graph, <m>(0,600)</m>, so <m>N_0 = 600</m>.</p>  <p>When <m>t=5,~N=300</m>, so the half-life of the substance is 5 hours. Thus the decay law is <m>N(t)=600(0.5)^{t/5}</m>, or <m>N(t)=600(0.87)^t</m>.</p></solution></example> 
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
@@ -182,10 +161,7 @@ The doubling time is 18.59 years.</p></solution></example>
 <exercise><statement><p><ol label="a">
     <li>Write a growth law for the population whose graph is shown, where <m>t</m> is in years.</li>
     <li>What is the annual growth rate for the population?</li></ol></p>
-   <sidebyside width="35%">
-            <image xml:id="fig-population-growth">
-                <description>exponential growth</description>
-                <latex-image>
+<sidebyside width="35%"><image xml:id="fig-population-growth"><description>exponential growth</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
@@ -203,10 +179,8 @@ The doubling time is 18.59 years.</p></solution></example>
                 }
                 \draw[samples=65,domain={0:10},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {1.5* 2^(\x/4) });
                 \end{tikzpicture}]]>
-                </latex-image>
-            </image>
-        </sidebyside>
-</statement>
+                </latex-image></image></sidebyside></statement>
+
 <answer><p><ol label="a">
     <li><m>P(t) = 10(2^{t/2.5})</m></li>
     <li>32.0%</li></ol></p></answer></exercise> 
@@ -214,10 +188,8 @@ The doubling time is 18.59 years.</p></solution></example>
 <exercise><statement><p><ol label="a">
     <li>Write a decay law for the population whose graph is shown, where <m>t</m> is in days.</li>
     <li>What is the daily decay rate for the population?</li></ol></p>
-   <sidebyside width="35%">
-            <image xml:id="fig-population-decay-exercise">
-                <description>exponential decay</description>
-                <latex-image>
+   <sidebyside width="35%"><image xml:id="fig-population-decay-exercise"><description>exponential decay</description>
+            <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
@@ -238,10 +210,7 @@ The doubling time is 18.59 years.</p></solution></example>
                 \filldraw[red] (3,6) circle (.12);
                 \filldraw[red] (6,3) circle (.12);
                 \end{tikzpicture}]]>
-                </latex-image>
-            </image>
-        </sidebyside>
-</statement>
+                </latex-image></image></sidebyside></statement>
 <answer><p><ol label="a">
     <li><m>P(t) = 120(0.5^{t/3})</m></li>
     <li>20.6%</li></ol></p></answer></exercise> 

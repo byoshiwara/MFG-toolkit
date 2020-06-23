@@ -79,9 +79,7 @@
                         <cell></cell>
                         <cell><m>(3)^2+2(3)-8=9+6-8</m></cell></row>
                     </tabular></p>
-        <image xml:id="y-eq-xsq-plus-2x-minus8">
-        <description>parabola y=xsqd+2x-8</description>
-        <latex-image>
+    <image xml:id="y-eq-xsq-plus-2x-minus8"><description>parabola y=xsqd+2x-8</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -95,10 +93,7 @@
         }
         \draw[samples=65,domain={(-sqrt(19)-1)/2:(sqrt(19)-1)/2},smooth,variable=\x,magenta!90!black,very thick, <->,>=stealth'] plot ( {\x}, {((\x*2)^2+2*2*\x-8)/2});
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
-</solution></example>
+        </latex-image></image></sidebyside></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
@@ -202,9 +197,7 @@
                         <cell bottom="minor"><m>5</m></cell>
                         <cell bottom="minor"><m>14</m></cell></row>
                     </tabular></p>
-        <image xml:id="y-eq-xsq-minus-x-minus6">
-        <description>parabola</description>
-        <latex-image>
+    <image xml:id="y-eq-xsq-minus-x-minus6"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -220,9 +213,7 @@
         }
         \draw[samples=65,domain={-sqrt(65)/2+1/2:sqrt(65)/2+1/2},smooth,variable=\x,magenta!90!black,very thick, <->,>=stealth'] plot ( {\x}, {(\x)^2-\x-6});
         \end{tikzpicture}]]>
-        </latex-image>
-    </image>
-</sidebyside></answer></exercise>
+        </latex-image></image></sidebyside></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -235,9 +226,7 @@ Note that the theorem is true only for right triangles -- ones that have a 90<m>
 <subsubsection><title>Examples</title>
 
 <example><statement><sidebyside widths="50% 30%"><p>Find the unknown side in the right triangle.</p>
-    <image xml:id="fig-12-35-37-triangle">
-        <description> right triangle</description>
-        <latex-image>
+    <image xml:id="fig-12-35-37-triangle"><description> right triangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -248,73 +237,39 @@ Note that the theorem is true only for right triangles -- ones that have a 90<m>
         \node[text=red, font=\bf] at (1.75,0.3) {\large$z$}; 
         \node[text=black] at (-0.35,0.6) {$12$}; 
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
+        </latex-image></image></sidebyside>
 </statement>
 <solution><p>The unknown side is the hypotenuse, so we apply the Pythagorean theorem with <m>c=z,~a=12</m>, and <m>b=35</m>.
-    <md>
-        <mrow>
-            a^2 + b^2 \amp = c^2
-        </mrow>
-        <mrow>
-            12^2+35^2 \amp =z^2 \amp \amp \blert{\text{Simplify the left side.}}
-        </mrow>
-        <mrow>
-            \\
-                1369 \amp = z^2   \amp \amp  \blert{\text{Take the square root of both sides.}}
-        </mrow>
-        <mrow>
-            \pm 37 \amp = z
-        </mrow>
-    </md>
+    <md><mrow>a^2 + b^2 \amp = c^2</mrow>
+        <mrow>12^2+35^2 \amp =z^2 \amp \amp \blert{\text{Simplify the left side.}}</mrow>
+        <mrow>1369 \amp = z^2   \amp \amp  \blert{\text{Take the square root of both sides.}}</mrow>
+        <mrow>\pm 37 \amp = z</mrow></md>
 The length of the hypotenuse is a positive number, so <m>z=37</m>.</p></solution></example>
 
 <example><statement><p>A 25-foot ladder is placed against a wall so that its foot is 7 feet from the base of the wall.  How far up the wall does the ladder reach?</p></statement>
 
 <solution><sidebyside widths="75% 15%"><stack><p>We make a sketch and label the known dimensions, calling the unknown height <m>h</m>.  The ladder forms the hypotenuse of a right triangle, so we apply the Pythagorean theorem, substituting 25 for <m>c</m>, 7 for <m>b</m>, and <m>h</m> for <m>a</m>.
-    <md>
-        <mrow>
-            a^2 + b^2 \amp = c^2
-        </mrow>
-        <mrow>
-             h^2 + 7^2 \amp = 25^2
-        </mrow>
-    </md>
+    <md><mrow>a^2 + b^2 \amp = c^2</mrow>
+        <mrow>h^2 + 7^2 \amp = 25^2</mrow></md>
 </p></stack>
 <image source="images/ladder"><description>ladder</description></image></sidebyside><p>We solve the equation by extraction of roots:
-    <md>
-        <mrow>
-            h^2 + 49 \amp = 625 \amp \amp \blert{\text{Subtract 49 from both sides.}}
-        </mrow>
-        <mrow>
-            h^2 \amp =576 \amp \amp \blert{\text{Extract roots.}}
-        </mrow>
-        <mrow>
-            h \amp =\pm \sqrt{576}   \amp \amp  \blert{\text{Simplify the radical.}}
-        </mrow>
-        <mrow>
-            h \amp \pm 24
-        </mrow>
-    </md>
+    <md><mrow>h^2 + 49 \amp = 625 \amp \amp \blert{\text{Subtract 49 from both sides.}}</mrow>
+        <mrow>h^2 \amp =576 \amp \amp \blert{\text{Extract roots.}}</mrow>
+        <mrow>h \amp =\pm \sqrt{576}   \amp \amp  \blert{\text{Simplify the radical.}}</mrow>
+        <mrow>h \amp \pm 24</mrow></md>
 The height must be a positive number, so the ladder reaches 24 feet up the wall.</p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise>
-    <statement><p>A baseball diamond is a square whose sides are 90 feet long.  Find the straight-line distance from home plate to second base.
+<exercise><statement><p>A baseball diamond is a square whose sides are 90 feet long.  Find the straight-line distance from home plate to second base.
         <ol label="a">
             <li>Make a sketch of the situation and label a right triangle.</li>
             <li>Write an equation and solve.</li>
-        </ol></p>
-    </statement>
-    <answer><p>
-        <ol label="a" cols="2">
-            <li><sidebyside width="95%">
-                <image xml:id="fig-baseball-diamond">
-                <description>baseball diamond</description>
-                <latex-image>
+        </ol></p></statement>
+<answer><p><ol label="a" cols="2">
+    <li><sidebyside width="95%">
+        <image xml:id="fig-baseball-diamond"><description>baseball diamond</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
@@ -325,27 +280,15 @@ The height must be a positive number, so the ladder reaches 24 feet up the wall.
                 \node[text=blue] at (1.5,-.4) {\small 90 ft};
                 \node[text=blue] at (3.8,1.5) {\small 90 ft};
                 \end{tikzpicture}]]>
-                </latex-image>
-                </image></sidebyside>
-            </li>
-            <li>127.28 ft</li>
-        </ol>
-    </p>
-</answer>
-</exercise>
+                </latex-image></image></sidebyside></li>
+        <li>127.28 ft</li></ol></p></answer></exercise>
 
-<exercise>
-    <statement><p>How long a wire is needed to stretch from the top of a 40-foot telephone pole to a point on the ground 20 feet from the base of the pole?
+<exercise><statement><p>How long a wire is needed to stretch from the top of a 40-foot telephone pole to a point on the ground 20 feet from the base of the pole?
         <ol label="a">
             <li>Make a sketch of the situation and label a right triangle.</li>
-            <li>Write an equation and solve.</li>
-        </ol></p>
-    </statement>
-    <answer><p>
-        <ol label="a" cols="2">
-            <li><sidebyside width="45%">
-                <image xml:id="fig-telephone-pole">
-                <description>telephone pole and wire</description>
+            <li>Write an equation and solve.</li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+    <li><sidebyside width="45%"><image xml:id="fig-telephone-pole"><description>telephone pole and wire</description>
                 <latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
@@ -355,14 +298,8 @@ The height must be a positive number, so the ladder reaches 24 feet up the wall.
                 \draw[black, thick] (0,0)  -- (0,4) node[left, midway] {40 ft} -- (2,0) -- cycle node[below, midway] {20 ft};
                 \node[text=blue] at (1.4,2) {$x$};
                 \end{tikzpicture}]]>
-                </latex-image>
-                </image></sidebyside>
-            </li>
-            <li>44.72 ft</li>
-        </ol>
-    </p>
-</answer>
-</exercise>
+                </latex-image></image></sidebyside></li>
+    <li>44.72 ft</li></ol></p></answer></exercise>
 
 </subsubsection>
 </subsection>
@@ -371,16 +308,8 @@ The height must be a positive number, so the ladder reaches 24 feet up the wall.
 <introduction>
 <p>The volume of a box is measured in cubic units and can be calculated using the formula <m>V=lwh</m>, where <m>l,~w,</m> and <m>h</m> stand for the length, width, and height of the box. Volume measures the amount of space inside an object by telling us how many blocks 1 unit on a side will fit inside the space. For example, the volume of the box below, whose dimensions are given in centimeters, is</p>
 <sidebyside widths="40% 60%" ><image source="images/fig-2-1-5.png"><description>box</description></image>
-<p>
-    <md>
-        <mrow>
-            V \amp = lwh 
-        </mrow>
-        <mrow>
-            \amp = (6)(4)(3) = 72~ \text{cubic centimeters}
-        </mrow>
-    </md>
-</p></sidebyside>
+<p><md><mrow>V \amp = lwh </mrow>
+    <mrow>\amp = (6)(4)(3) = 72~ \text{cubic centimeters}</mrow></md></p></sidebyside>
 
 <p>It may seem difficult to measure the inside of a round object like a sphere or a cone in cubic units, but you can imagine filling the object with liquid and then pouring the liquid into a box to measure its volume.</p>
 <sidebyside width="90%"><image source="images/fig-2-1-6.png"><description>solids</description></image></sidebyside>

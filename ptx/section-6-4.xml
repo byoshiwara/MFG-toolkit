@@ -9,49 +9,31 @@
 
 <subsubsection><title>Examples</title>
 
-<example>
-    <statement>
-        <p>Write the equation <m>~y=x^2+8x+10~</m> in vertex form.</p>
-    </statement>
-    <solution>
-        <p>
-            Complete the square on the variable terms. 
-            <md>
-                <mrow>y \amp =(x^2+8x+ <fillin characters="4"/>)+10 \amp \amp ~\blert{2p=8,~ \text{so}~p^2=4^2=16.}</mrow>
-                <mrow>y \amp =(x^2+8x+ \alert{16})+10 - \alert{16} \amp \amp ~\blert{\text{Add and subtract 16.}}</mrow>
-                <mrow>y \amp =(x+4)^2-6 \amp \amp 
+<example><statement><p>Write the equation <m>~y=x^2+8x+10~</m> in vertex form.</p></statement>
+    
+<solution><p>Complete the square on the variable terms. 
+    <md><mrow>y \amp =(x^2+8x+ <fillin characters="4"/>)+10 \amp \amp ~\blert{2p=8,~ \text{so}~p^2=4^2=16.}</mrow>
+        <mrow>y \amp =(x^2+8x+ \alert{16})+10 - \alert{16} \amp \amp ~\blert{\text{Add and subtract 16.}}</mrow>
+        <mrow>y \amp =(x+4)^2-6 \amp \amp 
                     \begin{array}{l}
                         \blert{\text{Write } x^2+8x+16 \text{ as the}}\\
                         \blert{\text{square of a binomial.}}
-                    \end{array}
-                </mrow>
-            </md>
-        </p>
-    </solution>
-</example>
+                    \end{array}</mrow></md>
+</p></solution></example>
 
-<example>
-    <statement>
-        <p>Write the equation <m>~y=2x^2-12x+10~</m> in vertex form.</p>
-    </statement>
-    <solution>
-        <p>
-            First, factor 2 from the variable terms.
+<example><statement><p>Write the equation <m>~y=2x^2-12x+10~</m> in vertex form.</p></statement>
+    
+<solution><p>First, factor 2 from the variable terms.
             <me>y=2(x^2-6x)+10</me>
-            Next, complete the square inside parentheses. 
-            <md>
-                <mrow>y \amp =2(x^2-6x+ <fillin characters="4"/>)+10 \amp \amp \blert{2p=-6,~ \text{so}~p^2=(-3)^2=9.}</mrow>
-                <mrow>y \amp =2(x^2-6x+ \alert{9})+10 - 2(\alert{9}) \amp \amp \blert{\text{Add and subtract}~2(9).}</mrow>
-                <mrow>y \amp =2(x-3)^2-8 \amp \amp  
+Next, complete the square inside parentheses. 
+    <md><mrow>y \amp =2(x^2-6x+ <fillin characters="4"/>)+10 \amp \amp \blert{2p=-6,~ \text{so}~p^2=(-3)^2=9.}</mrow>
+        <mrow>y \amp =2(x^2-6x+ \alert{9})+10 - 2(\alert{9}) \amp \amp \blert{\text{Add and subtract}~2(9).}</mrow>
+        <mrow>y \amp =2(x-3)^2-8 \amp \amp  
                     \begin{array}{l}
                         \blert{\text{Write } x^2-6x+9 \text{ as the}}\\
                         \blert{\text{square of a binomial.}}
-                    \end{array}
-                </mrow>
-            </md>
-        </p>
-    </solution>
-</example>
+                    \end{array}</mrow></md>
+</p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
@@ -70,19 +52,12 @@
 
 <subsubsection><title>Examples</title>
 
-<example>
-    <statement>
-        <p>Graph the equation <m>~y=\dfrac{-1}{2}(x+3)^2-2</m></p>
-    </statement>
-    <solution>
-        <p>
-            The vertex is the point <m>(-3,2)</m>.  We can find the <m>y</m>-intercept by setting <m>x=0</m>.
+<example><statement><p>Graph the equation <m>~y=\dfrac{-1}{2}(x+3)^2-2</m></p></statement>
+    
+<solution><p>The vertex is the point <m>(-3,2)</m>.  We can find the <m>y</m>-intercept by setting <m>x=0</m>.
             <me>y = \dfrac{-1}{2}(\alert{0}+3)^2-2 = \dfrac{-9}{2}-2 = -6\dfrac{1}{2}</me>
-            The <m>y</m>-intercept is the point <m>\left(0, -6\dfrac{1}{2}\right)</m>. The axis of symmetry is the vertical line <m>x=-3</m>, and there is a symmetric point equidistant from the axis, namely <m>\left(-6, -6\dfrac{1}{2}\right)</m>. We plot these three points and sketch the parabola through them.
-        </p>
-        <sidebyside  width="30%">
-            <image xml:id="y-eq-neg-half-sq-of-x-plus3-minus2">
-            <description>parabola</description>
+The <m>y</m>-intercept is the point <m>\left(0, -6\dfrac{1}{2}\right)</m>. The axis of symmetry is the vertical line <m>x=-3</m>, and there is a symmetric point equidistant from the axis, namely <m>\left(-6, -6\dfrac{1}{2}\right)</m>. We plot these three points and sketch the parabola through them.</p>
+    <sidebyside  width="30%"><image xml:id="y-eq-neg-half-sq-of-x-plus3-minus2"><description>parabola</description>
             <latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
@@ -102,29 +77,18 @@
             \filldraw[magenta!90!black] (-6,-13/2) circle (.15);
             \draw[samples=65,domain={-sqrt(12)-3:sqrt(12)-3},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, { -1/2*(\x+3)^2-2 });
             \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
-    </solution>
-</example>
+            </latex-image></image></sidebyside></solution></example>
 
-<example>
-    <statement>
-        <p>Graph the equation <m>~y=2(x-15)^2-72</m></p>
-    </statement>
-    <solution>
-        <p>
-            The vertex is <m>(15,-72)</m>. We find the <m>y</m>-intercept by setting <m>x=0</m>:
+<example><statement><p>Graph the equation <m>~y=2(x-15)^2-72</m></p></statement>
+    
+<solution><p>The vertex is <m>(15,-72)</m>. We find the <m>y</m>-intercept by setting <m>x=0</m>:
             <me>y=2(\alert{0}-15)^2-72=378</me>
-            The <m>y</m>-intercept is <m>(0, 378)</m>. We find the <m>x</m>-intercepts by setting <m>y=0</m>:
+The <m>y</m>-intercept is <m>(0, 378)</m>. We find the <m>x</m>-intercepts by setting <m>y=0</m>:
                 <md><mrow>2(x-15)^2-72 \amp = \alert{0}</mrow>
                     <mrow>(x-15)^2 \amp = 36</mrow>
                     <mrow>x \amp = \pm 6+15</mrow></md>
-            The <m>x</m>-intercepts are <m>(9,0)</m> and <m>(21,0)</m>. We plot these three points and sketch the parabola through them.
-        </p>
-        <sidebyside  width="30%">
-            <image xml:id="y-eq-2-sq-of-x-minus15-minus72">
-            <description>parabola</description>
+The <m>x</m>-intercepts are <m>(9,0)</m> and <m>(21,0)</m>. We plot these three points and sketch the parabola through them.</p>
+    <sidebyside  width="30%"><image xml:id="y-eq-2-sq-of-x-minus15-minus72"><description>parabola</description>
             <latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
@@ -145,25 +109,17 @@
             \filldraw[magenta!90!black] (21/5,0) circle (.15);
             \draw[samples=65,domain={-sqrt(286)/5+3:sqrt(286)/5+3},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, { (2*(5*\x-15)^2-72)/50 });
             \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
-    </solution>
-</example>
+            </latex-image></image></sidebyside></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise>
-    <statement>
-        <p>Find the vertex, the <m>y</m>-intercept, and the <m>x</m>-intercepts of <m>~y=(x-2)^2-5</m>, and sketch its graph.</p>
-        <sidebyside  width="45%"><image source="images/fig-10x10-grid"><description>grid</description></image></sidebyside>
-    </statement>
-    <answer>
-        <sidebyside  width="35%">
-            <image xml:id="y-eq-sq-of-x-minus2-minus5">
-            <description>parabola</description>
-            <latex-image>
+<exercise><statement<p>Find the vertex, the <m>y</m>-intercept, and the <m>x</m>-intercepts of <m>~y=(x-2)^2-5</m>, and sketch its graph.</p>
+    <sidebyside  width="45%"><image source="images/fig-10x10-grid"><description>grid</description></image></sidebyside>
+</statement>
+    
+<answer><sidebyside  width="35%">
+    <image xml:id="y-eq-sq-of-x-minus2-minus5"><description>parabola</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -183,22 +139,14 @@
             \filldraw[magenta!90!black] ({2-sqrt(5)},0) circle (.25);
             \filldraw[magenta!90!black] ({2+sqrt(5)},0) circle (.25);
             \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
-    </answer>
-</exercise>
+            </latex-image></image></sidebyside></answer></exercise>
 
-<exercise>
-    <statement>
-        <p>Find the vertex, the <m>y</m>-intercept, and the <m>x</m>-intercepts of <m>~y=-2(x+1)^2+3</m>, and sketch its graph.</p>
-        <sidebyside  width="45%"><image source="images/fig-10x10-grid"><description>grid</description></image></sidebyside>
+<exercise><statement><p>Find the vertex, the <m>y</m>-intercept, and the <m>x</m>-intercepts of <m>~y=-2(x+1)^2+3</m>, and sketch its graph.</p>
+    <sidebyside  width="45%"><image source="images/fig-10x10-grid"><description>grid</description></image></sidebyside>
     </statement>
-    <answer>
-        <sidebyside  width="35%">
-            <image xml:id="y-eq-neg2-sq-of-x-plus1-plus3">
-            <description>parabola</description>
-            <latex-image>
+    
+<answer><sidebyside  width="35%">
+    <image xml:id="y-eq-neg2-sq-of-x-plus1-plus3"><description>parabola</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -218,11 +166,7 @@
             \filldraw[magenta!90!black] ({-1-sqrt(3/2)},0) circle (.25);
             \filldraw[magenta!90!black] ({-1+sqrt(3/2)},0) circle (.25);
             \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
-    </answer>
-</exercise>
+            </latex-image></image></sidebyside></answer></exercise>
 
 </subsubsection>
 </subsection>

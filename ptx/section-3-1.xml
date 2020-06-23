@@ -14,52 +14,26 @@
 <example>
     <statement><p>Solve <m>~231.90=18.85r^2~</m>.</p></statement>
     <solution><p>The equation is quadratic.  We solve by extraction of roots.
-        <md>
-            <mrow>
-                231.90 \amp = 18.85 r^2 \amp\amp \blert{\text{Isolate the squared expression.}}
-            </mrow>
-            <mrow>
-                12.302 \amp = r^2 \amp\amp \blert{\text{Take square roots.}}
-            </mrow>
-            <mrow>
-                r \amp = 35
-            </mrow>
-        </md>
+        <md><mrow>231.90 \amp = 18.85 r^2 \amp\amp \blert{\text{Isolate the squared expression.}}</mrow>
+            <mrow>12.302 \amp = r^2 \amp\amp \blert{\text{Take square roots.}}</mrow>
+            <mrow>r \amp = 35</mrow></md>
 </p></solution></example>
 
 <example>
     <statement><p>Solve <m>~2.8125 = \dfrac{36}{n}</m>.</p></statement>
     <solution><p>We must first get the variable out of the denominator.
-        <md>
-            <mrow>
-                n(2.8125) \amp = \dfrac{36}{n} n \amp\amp \blert{\text{Multiply boyh sides by}~n.}
-            </mrow>
-            <mrow>
-                2.8125n \amp = 36 \amp\amp \blert{\text{Divide both sides by 2.8125.}}
-            </mrow>
-            <mrow>
-                n \amp = 12.8
-            </mrow>
-        </md>
+        <md><mrow>n(2.8125) \amp = \dfrac{36}{n} n \amp\amp \blert{\text{Multiply boyh sides by}~n.}</mrow>
+            <mrow>2.8125n \amp = 36 \amp\amp \blert{\text{Divide both sides by 2.8125.}}</mrow>
+            <mrow>n \amp = 12.8</mrow></md>
 </p></solution></example>
 
 <example>
     <statement><p>Solve <m>~0.5547 = \dfrac{1500}{d^2}</m>.</p></statement>
     <solution><p>We must first get the variable out of the denominator.
-        <md>
-            <mrow>
-                 d^2(0.5547) \amp = \dfrac{1500}{d^2} d^2 \amp\amp \blert{\text{Multiply boyh sides by}~d^2.}
-            </mrow>
-            <mrow>
-                0.5547d^2 \amp = 1500 \amp\amp \blert{\text{Divide both sides by 0.5547.}}
-            </mrow>
-            <mrow>
-                d^2 \amp = 2704.16  \amp\amp \blert{\text{Take square roots.}}
-            </mrow>
-            <mrow>
-               d \amp = 52 
-            </mrow>
-        </md>
+        <md><mrow>d^2(0.5547) \amp = \dfrac{1500}{d^2} d^2 \amp\amp \blert{\text{Multiply boyh sides by}~d^2.}</mrow>
+            <mrow>0.5547d^2 \amp = 1500 \amp\amp \blert{\text{Divide both sides by 0.5547.}}</mrow>
+            <mrow>d^2 \amp = 2704.16  \amp\amp \blert{\text{Take square roots.}}</mrow>
+            <mrow>d \amp = 52 </mrow></md>
 </p></solution></example>
 </subsubsection>
 
@@ -85,22 +59,12 @@
 <example>
     <statement><p>Sketch a graph of <m>V=0.2s^3</m>.</p></statement>
     <solution><p>We know that the graph has the shape of the basic function <m>y=x^3</m>, so all we need are a few points to "anchor" the graph.
-    <md>
-        <mrow>
-            \text{If } s=1, \amp V = 0.2(1)^3 = 0.2
-        </mrow>
-        <mrow>
-            \text{If } s=2, \amp V = 0.2(2)^3 = 1.6
-        </mrow>
-        <mrow>
-            \text{If } s=3, \amp V = 0.2(3)^3 = 5.4 
-        </mrow>
-    </md>
+    <md><mrow>\text{If } s=1, \amp V = 0.2(1)^3 = 0.2</mrow>
+        <mrow>\text{If } s=2, \amp V = 0.2(2)^3 = 1.6</mrow>
+        <mrow>\text{If } s=3, \amp V = 0.2(3)^3 = 5.4 </mrow></md>
 The graph is shown below.</p>
 <sidebyside width="30%">
-    <image xml:id="V-eq-pt2-s-cubed">
-        <description>cubic</description>
-        <latex-image>
+    <image xml:id="V-eq-pt2-s-cubed"><description>cubic</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -114,29 +78,15 @@ The graph is shown below.</p>
         }
         \draw[samples=65,domain={0:50^(1/3)},smooth,variable=\x,magenta!90!black,very thick, ->,>=stealth'] plot ( {\x}, {(\x)^3/10});
         \end{tikzpicture}]]>
-        </latex-image>
-    </image>
-</sidebyside>
-</solution></example>
+        </latex-image></image></sidebyside></solution></example>
 
-<example>
-    <statement><p>Sketch a graph of <m>H=\dfrac{48}{w}</m>.</p></statement>
+<example><statement><p>Sketch a graph of <m>H=\dfrac{48}{w}</m>.</p></statement>
     <solution><p>We know that the graph has the shape of the basic function <m>y=\dfrac{1}{x}</m>, so all we need are a few points to "anchor" the graph.
-    <md>
-        <mrow>
-            \text{If } w=2, \amp H = \dfrac{48}{2} = 24
-        </mrow>
-        <mrow>
-            \text{If } w=6, \amp H = \dfrac{48}{6} = 8
-        </mrow>
-        <mrow>
-            \text{If } w=12, \amp H = \dfrac{48}{12} = 4 
-        </mrow>
-    </md>
+    <md><mrow>\text{If } w=2, \amp H = \dfrac{48}{2} = 24</mrow>
+        <mrow>\text{If } w=6, \amp H = \dfrac{48}{6} = 8</mrow>
+        <mrow>\text{If } w=12, \amp H = \dfrac{48}{12} = 4 </mrow></md>
 The graph is shown below.</p>
-<sidebyside width="30%"><image xml:id="H-eq-48-over-w">
-        <description>cubic</description>
-        <latex-image>
+<sidebyside width="30%"><image xml:id="H-eq-48-over-w"><description>cubic</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -150,18 +100,14 @@ The graph is shown below.</p>
         }
         \draw[samples=65,domain={1/2:6},smooth,variable=\x,magenta!90!black,very thick, <->,>=stealth'] plot ( {\x}, {3/(\x)});
         \end{tikzpicture}]]>
-        </latex-image>
-    </image>
-</sidebyside>
-</solution></example>
+        </latex-image></image></sidebyside></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Plot three points and sketch a graph of <m>B=\dfrac{0.8}{d^2}</m>.</p>
 <sidebyside width="30%"><image xml:id="B-eq-pt8-over-d-sq-grid">
-        <description>reciprocal squared</description>
-        <latex-image>
+        <description>reciprocal squared</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -174,14 +120,10 @@ The graph is shown below.</p>
          \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
         }
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
-</statement>
-    <answer><m>(1,0.8),~(2,0.2),~(4,0.05)</m>
-        <sidebyside width="30%"><image xml:id="B-eq-pt8-over-d-sq">
-        <description>reciprocal squared</description>
-        <latex-image>
+        </latex-image></image></sidebyside></statement>
+    
+<answer><m>(1,0.8),~(2,0.2),~(4,0.05)</m><sidebyside width="30%"><image xml:id="B-eq-pt8-over-d-sq">
+        <description>reciprocal squared</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -195,16 +137,11 @@ The graph is shown below.</p>
         }
         \draw[samples=65,domain={sqrt(.4):4},smooth,variable=\x,magenta!90!black,very thick, <->,>=stealth'] plot ( {\x}, {2*.8/(\x)^2});
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
-    </answer>
-</exercise>
+        </latex-image></image></sidebyside></answer></exercise>
 
 <exercise><statement><p>Plot three points and sketch a graph of <m>d=\dfrac{3}{8}t^2</m>.</p>
 <sidebyside width="30%"><image xml:id="d-eq-3eighths-t-sq-grid">
-        <description>grid</description>
-        <latex-image>
+        <description>grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -217,14 +154,10 @@ The graph is shown below.</p>
          \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
-</statement>
-    <answer><m>\left(1,\dfrac{3}{8}\right)</m>, <m>\left(2,\dfrac{3}{2}\right)</m>, <m>(4,6)</m>
-        <sidebyside width="30%"><image xml:id="d-eq-3eighths-t-sq">
-        <description>parabola</description>
-        <latex-image>
+        </latex-image></image></sidebyside></statement>
+    
+<answer><m>\left(1,\dfrac{3}{8}\right)</m>, <m>\left(2,\dfrac{3}{2}\right)</m>, <m>(4,6)</m>
+        <sidebyside width="30%"><image xml:id="d-eq-3eighths-t-sq"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -238,11 +171,7 @@ The graph is shown below.</p>
         }
         \draw[samples=65,domain={0:sqrt(32/3)},smooth,variable=\x,magenta!90!black,very thick, ->,>=stealth'] plot ( {\x}, {3/8*(\x)^2});
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
-    </answer>
-</exercise>
+        </latex-image></image></sidebyside></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -252,42 +181,21 @@ The graph is shown below.</p>
 
 <subsubsection><title>Examples</title>
 
-<example>
-    <statement>
-        <p>Find the constant of variation and the variation equation:</p>
-        <p><m>~~~y</m> varies directly with the square of <m>x</m>, and <m>y=100</m> when <m>x=2.5</m>.</p>
-    </statement>
-    <solution>
-        <p>Because <m>y</m> varies directly with the square of <m>x</m>, we know that <m>y=kx^2</m>. We substitute the given values to find
-        <md>
-            <mrow>
-                100 \amp = k(2.5)^2  \amp\amp \blert{\text{Solve for}~k.}
-            </mrow>
-            <mrow>
-                 k \amp = \dfrac{100}{2.5^2} = 16
-            </mrow>
-        </md>
-        The constant of variation is 16, and the variation equation is <m>~y=16x^2</m>.</p>
-    </solution>
-</example>
+<example><statement><p>Find the constant of variation and the variation equation:</p>
+        <p><m>~~~y</m> varies directly with the square of <m>x</m>, and <m>y=100</m> when <m>x=2.5</m>.</p></statement>
+    
+<solution><p>Because <m>y</m> varies directly with the square of <m>x</m>, we know that <m>y=kx^2</m>. We substitute the given values to find
+        <md><mrow>100 \amp = k(2.5)^2  \amp\amp \blert{\text{Solve for}~k.}</mrow>
+            <mrow>k \amp = \dfrac{100}{2.5^2} = 16</mrow></md>
+The constant of variation is 16, and the variation equation is <m>~y=16x^2</m>.</p></solution></example>
 
-<example>
-    <statement>
-        <p>Find the constant of variation and the variation equation:</p>
-        <p><m>~~~y</m> varies inversely with the square of <m>x</m>, and <m>y=4687.5</m> when <m>x=0.16</m>.</p>
-    </statement>
-    <solution>
-        <p>Because <m>y</m> varies inversely with the square of <m>x</m>, we know that <m>y=\dfrac{k}{x^2}</m>. We substitute the given values to find
-        <md>
-            <mrow>
-                4687.5 \amp = \dfrac{k}{0.16^2}  \amp\amp \blert{\text{Solve for}~k.}
-            </mrow>
-            <mrow>
-                k \amp  = 4687.5(0.16)^2=120
-            </mrow>
-        </md>
-        The constant of variation is 120, and the variation equation is <m>~y=\dfrac{120}{x^2}</m>.</p>
-    </solution>
+<example><statement><p>Find the constant of variation and the variation equation:</p>
+    <p><m>~~~y</m> varies inversely with the square of <m>x</m>, and <m>y=4687.5</m> when <m>x=0.16</m>.</p></statement>
+
+<solution><p>Because <m>y</m> varies inversely with the square of <m>x</m>, we know that <m>y=\dfrac{k}{x^2}</m>. We substitute the given values to find
+        <md><mrow>4687.5 \amp = \dfrac{k}{0.16^2}  \amp\amp \blert{\text{Solve for}~k.}</mrow>
+            <mrow>k \amp  = 4687.5(0.16)^2=120</mrow></md>
+        The constant of variation is 120, and the variation equation is <m>~y=\dfrac{120}{x^2}</m>.</p></solution>
 </example>
 </subsubsection>
 
