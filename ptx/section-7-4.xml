@@ -9,21 +9,13 @@
 
 <subsubsection><title>Examples</title>
 
-<example>
-    <statement>
-        <p>Multiply <m>~\dfrac{4y^2-1}{4-y^2} \cdot \dfrac{y^2-2y}{4y+2}</m></p>
-    </statement>
-    <solution>
-        <p>
-            We factor each numerator and denominator, and look for common factors. 
-            <md>
-                <mrow>\amp \dfrac{4y^2-1}{4-y^2} \cdot \dfrac{y^2-2y}{4y+2} \amp </mrow>
-                <mrow>\amp\qquad=\dfrac{(2y-1)\cancel{(2y+1)}}{\cancel{(2-y)}(2+y)} \cdot \dfrac{y(-1)\cancel{(y-2)}}{2\cancel{(2y+1)}} \amp \amp \blert{\text{Divide out common factors.}}</mrow>
-                <mrow>\amp\qquad = \dfrac{-y(2y-1)}{2(y+2)} \amp \amp \blert{\text{Note:}~~y-2=-(2-y)}</mrow>
-            </md>
-        </p>
-    </solution>
-</example>
+<example><statement><p>Multiply <m>~\dfrac{4y^2-1}{4-y^2} \cdot \dfrac{y^2-2y}{4y+2}</m></p></statement>
+    
+<solution><p>We factor each numerator and denominator, and look for common factors. 
+    <md><mrow>\amp \dfrac{4y^2-1}{4-y^2} \cdot \dfrac{y^2-2y}{4y+2} \amp </mrow>
+        <mrow>\amp\qquad=\dfrac{(2y-1)\cancel{(2y+1)}}{\cancel{(2-y)}(2+y)} \cdot \dfrac{y(-1)\cancel{(y-2)}}{2\cancel{(2y+1)}} \amp \amp \blert{\text{Divide out common factors.}}</mrow>
+        <mrow>\amp\qquad = \dfrac{-y(2y-1)}{2(y+2)} \amp \amp \blert{\text{Note:}~~y-2=-(2-y)}</mrow></md></p>
+</solution></example>
                     
 <example><statement><p>Divide <m>~\dfrac{6ab}{2a+b} \div (4a^2b)</m></p></statement>
 

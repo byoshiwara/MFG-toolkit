@@ -107,8 +107,7 @@
 
 <example><statement><p>Here is a graph of <m>f(x)=x^2+2x-16</m>. Use the graph to solve the equation <m>x^2+2x-16=8</m>.  Show your work on the graph.</p>
     <sidebyside  width="35%"><image xml:id="y-eq-xsq-plus-2x-minus16">
-        <description>parabola</description>
-        <latex-image>
+        <description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -124,15 +123,11 @@
         }
         \draw[samples=65,domain={-sqrt(29)-1:sqrt(29)-1},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, {(\x)^2+2*\x-16});
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
-</statement>
+        </latex-image></image></sidebyside></statement>
  
 <solution><p>To solve the equation, we want to find <m>x</m>-values that produce a function value of 8. The vertical coordinate of each point on the graph is given by the function value, <m>f(x)</m>.  So we look for points on the graph with vertical coordinate <m>f(x)=8</m>.</p>
 <sidebyside width="35%"><image xml:id="y-eq-xsq-plus-2x-minus16-annotated">
-        <description>parabola with annotations</description>
-        <latex-image>
+        <description>parabola with annotations</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -153,26 +148,15 @@
         \draw[magenta!90!black,thick,->,>=stealth'] (-6,8) -- (-6,0) node[below, yshift=-3, fill=white, inner sep=2] {\bf $-6$};
         \draw[magenta!90!black,thick,->,>=stealth'] (4,8) -- (4,0) node[below, yshift=-3, fill=white, inner sep=2] {\bf $4$};
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-</sidebyside>
+        </latex-image></image></sidebyside>
 <p>There are two such points, <m>(-6,8)</m> and <m>(4,8)</m>. Those points tell us that <m>f(-6)=8</m> and <m>f(4)=8</m>.  Thus, the <m>x</m>-coordinates of the points, namely <m>-6</m> and <m>4</m>, are the solutions.  To check algebraically, we can verify that <m>f(-6)=8</m> and <m>f(4)=8</m>:
-    <md>
-        <mrow>
-             f(\alert{-6}) \amp = (\alert{-6})^2+2(\alert{-6})-16 = 36-12-16 = 8
-        </mrow>
-        <mrow>
-            f(\alert{4})\amp = \alert{4}^2+2(\alert{4})-16 = 16+8-16 = 8
-        </mrow>
-    </md>
+    <md><mrow>f(\alert{-6}) \amp = (\alert{-6})^2+2(\alert{-6})-16 = 36-12-16 = 8</mrow>
+        <mrow>f(\alert{4})\amp = \alert{4}^2+2(\alert{4})-16 = 16+8-16 = 8</mrow></md>
 </p></solution></example>
 
-<example>
-    <statement><p>Here is a graph of <m>G(x)=\dfrac{20}{(x-3)^2}</m>. Use the graph to solve the equation <m>\dfrac{20}{(x-3)^2} = 5</m>.  Show your work on the graph.</p>
-    <sidebyside  width="50%">
-        <image xml:id="y-eq-20-over-sq-of-x-minus3">
-        <description>transformed inverse-square</description>
-        <latex-image>
+<example><statement><p>Here is a graph of <m>G(x)=\dfrac{20}{(x-3)^2}</m>. Use the graph to solve the equation <m>\dfrac{20}{(x-3)^2} = 5</m>.  Show your work on the graph.</p>
+    <sidebyside  width="50%"><image xml:id="y-eq-20-over-sq-of-x-minus3">
+        <description>transformed inverse-square</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -189,14 +173,11 @@
         \draw[samples=65,domain={-8:-sqrt(2)+3},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, {20/(\x-3)^2});
         \draw[samples=65,domain={sqrt(2)+3:12},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, {20/(\x-3)^2});
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside></statement>
-    <solution><sidebyside  widths="45% 50%" margins="0% 0%" valigns="middle middle">
-        <p> We find any points on the graph with vertical coordinate <m>G(x)=5</m>. There are two points, <m>(1,5)</m> and <m>(5,5</m>.)  The <m>x</m>-coordinates of those points, namely 1 and 5, are the solutions.</p>
-        <image xml:id="y-eq-20-over-sq-of-x-minus3-annotated">
-        <description>transformed inverse-square-annotated</description>
-        <latex-image>
+        </latex-image></image></sidebyside></statement>
+    
+<solution><sidebyside  widths="45% 50%" margins="0% 0%" valigns="middle middle">
+    <p> We find any points on the graph with vertical coordinate <m>G(x)=5</m>. There are two points, <m>(1,5)</m> and <m>(5,5</m>.)  The <m>x</m>-coordinates of those points, namely 1 and 5, are the solutions.</p>
+        <image xml:id="y-eq-20-over-sq-of-x-minus3-annotated"><description>transformed inverse-square-annotated</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -217,23 +198,13 @@
         \draw[magenta!90!black,thick,->,>=stealth'] (1,5) -- (1,0) node[below, yshift=-5, fill=white, inner sep=2] {\bf $1$};
         \draw[magenta!90!black,thick,->,>=stealth'] (5,5) -- (5,0) node[below, yshift=-5, fill=white, inner sep=2] {\bf $5$};
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside></solution>
-</example>
+        </latex-image></image></sidebyside></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercise</title>
 
-<exercise>
-    <statement>
-        <p>
-            Here is a graph of <m>\displaystyle F(x)=\dfrac{1}{16}x^3+\dfrac{3}{8}x^2-\dfrac{3}{2}-7~</m>
-        </p>
-        <sidebyside  width="40%">
-            <image xml:id="fig-cubic-3-zeroes">
-            <description>cubic</description>
-            <latex-image>
+<exercise><statement><p>Here is a graph of <m>\displaystyle F(x)=\dfrac{1}{16}x^3+\dfrac{3}{8}x^2-\dfrac{3}{2}-7~</m></p>
+    <sidebyside  width="40%"><image xml:id="fig-cubic-3-zeroes"><description>cubic</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -249,20 +220,14 @@
             }
             \draw[samples=65,domain={-9.183:5.44},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, {(\x)^3/16+3*(\x)^2/8-3/2*\x-7});
             \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
-        <p>
-            Use the graph to solve the equation 
+            </latex-image></image></sidebyside>
+<p>Use the graph to solve the equation 
         <me>~\dfrac{1}{16}x^3+\dfrac{3}{8}x^2-\dfrac{3}{2}-7 = -3~</me>
-        Show your work on the graph.</p>
-    </statement>
-    <answer>
-        <sidebyside widths="20% 40%" margins="0% 30%" valigns="middle middle">
+Show your work on the graph.</p></statement>
+    
+<answer><sidebyside widths="20% 40%" margins="0% 30%" valigns="middle middle">
             <p><m>-8</m>, <m>-2</m>, <m>4</m></p>
-            <image xml:id="fig-cubic-3-zeroes-annotated">
-            <description>cubic</description>
-            <latex-image>
+        <image xml:id="fig-cubic-3-zeroes-annotated"><description>cubic</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -281,20 +246,10 @@
             \filldraw[blue] (-2,-3) ellipse (.2 and .16) node[below left, yshift=-3, fill=white, inner sep=2]{$(-2,-3)$};
             \filldraw[blue] (4,-3) ellipse (.2 and .16) node[below right, yshift=-3, fill=white, inner sep=2]{$(4,-3)$};
             \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
-    </answer>
-</exercise> 
+            </latex-image></image></sidebyside></answer></exercise> 
 
-<exercise>
-    <statement>
-        <p>Here is a graph of  <m>~g(x)=15x^{2/3}~</m> 
-        </p>
-        <sidebyside width="45%">
-            <image xml:id="y-eq-15-x-to-2over3">
-            <description>y=15 x to 2/3</description>
-            <latex-image>
+<exercise><statement><p>Here is a graph of  <m>~g(x)=15x^{2/3}~</m> </p>
+    <sidebyside width="45%"><image xml:id="y-eq-15-x-to-2over3"><description>y=15 x to 2/3</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -310,21 +265,14 @@
             }
             \draw[samples=65,domain={-10:10},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, {1.5* abs(\x)^(2/3) });
             \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
-        <p>
-            Use the graph to solve the equation 
+            </latex-image></image></sidebyside>
+<p>Use the graph to solve the equation 
             <me>~15x^{2/3} = 60~</me>  
-            Show your work on the graph.
-        </p>
-    </statement>
-    <answer>
-        <sidebyside widths="15% 45%" margins="0% 40%" valigns="middle middle">
+    Show your work on the graph.</p></statement>
+    
+<answer><sidebyside widths="15% 45%" margins="0% 40%" valigns="middle middle">
             <p><m>-8,~8</m></p>
-            <image xml:id="y-eq-15-x-to-2over3-annotated">
-            <description>y=15 x to 2/3</description>
-            <latex-image>
+    <image xml:id="y-eq-15-x-to-2over3-annotated"><description>y=15 x to 2/3</description><latex-image>
             <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
             <![CDATA[\tikzset{%
             }
@@ -342,11 +290,7 @@
             \filldraw[blue] (-8,6) ellipse (.2 and .16) node[above right, yshift=1, fill=white, inner sep=2]{$(-8,60)$};
             \filldraw[blue] (8,6) ellipse (.2 and .16) node[above left, yshift=1, fill=white, inner sep=2]{$(8,60)$};
             \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
-    </answer>
-</exercise>
+            </latex-image></image></sidebyside></answer></exercise>
 </subsubsection>
 </subsection>
 

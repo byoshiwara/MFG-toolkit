@@ -110,39 +110,21 @@ and so on.</p></introduction>
 <example><statement><p>Simplify <m>~|2|-4|3-8|</m></p></statement>
 
 <solution><p>Absolute value bars are a grouping device. We simplify expressions within absolute value bars first.
-    <md>
-        <mrow>
-            |2|-4|\alert{3-8}| \amp = |2|- 4|\alert{-5}| \amp \amp \blert{\text{Evaluate absolute values.}}
-        </mrow>
-        <mrow>
-            \amp = 2-4(5) \amp \amp \blert{\text{Multiply.}}
-        </mrow>
-        <mrow>
-            \amp =2-20=18
-        </mrow>
-    </md>
+    <md><mrow>|2|-4|\alert{3-8}| \amp = |2|- 4|\alert{-5}| \amp \amp \blert{\text{Evaluate absolute values.}}</mrow>
+        <mrow>\amp = 2-4(5) \amp \amp \blert{\text{Multiply.}}</mrow>
+        <mrow>\amp =2-20=18</mrow></md>
 </p></solution></example>
 
 <example><statement><p>Simplify <m>~\dfrac{8-2\sqrt[3]{11.375+2.5^3}}{8-4}</m></p></statement>
 
 <solution><p>Simplify the expression under the radical first.
-    <md>
-        <mrow>
-            \dfrac{8-2\sqrt[3]{\alert{11.375+2.5^3}}}{8-4} \amp = \dfrac{8-2\sqrt[3]{\alert{27}}}{8-4} \amp \amp ~\blert{\text{Evaluate the radical.}}
-        </mrow>
-        <mrow>
-            \amp =\dfrac{8-2(3)}{8-4}  \amp \amp \begin{array}{l}
+    <md><mrow>\dfrac{8-2\sqrt[3]{\alert{11.375+2.5^3}}}{8-4} \amp = \dfrac{8-2\sqrt[3]{\alert{27}}}{8-4} \amp \amp ~\blert{\text{Evaluate the radical.}}</mrow>
+        <mrow>amp =\dfrac{8-2(3)}{8-4}  \amp \amp \begin{array}{l}
                 \blert{\text{Simplify numerator }}\\
                 \blert{\text{and denominator.}}
-                \end{array}
-        </mrow>
-        <mrow>
-            \amp =\dfrac{8-6}{4}
-        </mrow>
-        <mrow>
-            \amp = \dfrac{2}{4}  = \dfrac{1}{2}
-        </mrow>
-    </md>
+                \end{array}</mrow>
+        <mrow>\amp =\dfrac{8-6}{4}</mrow>
+        <mrow>\amp = \dfrac{2}{4}  = \dfrac{1}{2}</mrow></md>
 </p></solution></example>
 
 </subsubsection>

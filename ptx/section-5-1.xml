@@ -109,7 +109,7 @@
         <md><mrow>y \amp = \sqrt[3]{x-4} \amp \amp \blert{\text{Cube both sides.}}</mrow>
             <mrow>y^3 \amp = x-4 \amp \amp \blert{\text{Add 4 to both sides.}}</mrow>
             <mrow>y^3+4 \amp = x</mrow></md>
-        We can use any variables for a function, so we switch back to <m>x</m> for the input and <m>y</m> for the output:  
+    We can use any variables for a function, so we switch back to <m>x</m> for the input and <m>y</m> for the output:  
         <me>j(x)=x^3+4</me></li></ol> </p></solution></example>
 </subsubsection>
 

@@ -49,9 +49,7 @@ In interval notation, the solution set is <m>(-6,\infty)</m>.</p>
 <solution><p><ol label="a">
     <li><p>This equation is in the form <m>Ax+By=C</m>, so the intercept method of graphing is convenient. The intercepts are <m>(150,0)</m> and <m>(0,-75)</m>. The graph is shown below.</p>
     <sidebyside  width="45%">
-    <image xml:id="fig-5x-minus-10y-eq750">
-        <description>line</description>
-        <latex-image>
+    <image xml:id="fig-5x-minus-10y-eq750"><description>line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -69,15 +67,10 @@ In interval notation, the solution set is <m>(-6,\infty)</m>.</p>
         \filldraw[red] (0,-3) circle (.15);
         \filldraw[red] (6,0) circle (.15);
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
-</li> 
+        </latex-image></image></sidebyside></li> 
     <li><p>This equation is in the form <m>y=mx+b</m>, so the slope-intercept method of graphing is convenient. The <m>y</m>-intercept is <m>(0,400)</m>, and the slope is <m>-25</m>. The graph is shown below.</p>
     <sidebyside  width="40%">
-    <image xml:id="y-eq-400-minus25x">
-        <description>line</description>
-        <latex-image>
+    <image xml:id="y-eq-400-minus25x"><description>line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -94,10 +87,7 @@ In interval notation, the solution set is <m>(-6,\infty)</m>.</p>
         \draw[red,very thick,<->, >=stealth'] (-2, 10)--(10,-2);
         \filldraw[red] (0,8) circle (.15);
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
-</li></ol>  
+        </latex-image></image></sidebyside></li></ol>  
 </p></solution></example>
 </subsubsection>
 
@@ -105,9 +95,7 @@ In interval notation, the solution set is <m>(-6,\infty)</m>.</p>
 
 <exercise><statement><p>Graph the equation <m>~~24x+9y=432</m></p></statement>
     <answer><sidebyside  width="40%" margins="0% 5%">
-    <image xml:id="fig-24x-plus9y-eq432">
-        <description>line</description>
-        <latex-image>
+    <image xml:id="fig-24x-plus9y-eq432"><description>line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -125,16 +113,11 @@ In interval notation, the solution set is <m>(-6,\infty)</m>.</p>
         \filldraw[red] (0,48/5) circle (.15);
         \filldraw[red] (9,0) circle (.15);
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
-</answer></exercise>
+        </latex-image></image></sidebyside></answer></exercise>
 
 <exercise><statement><p>Graph the equation <m>~~y=12x+60</m></p></statement>
     <answer><sidebyside  width="40%" margins="0% 5%">
-    <image xml:id="y-eq-12x-plus60">
-        <description>line</description>
-        <latex-image>
+    <image xml:id="y-eq-12x-plus60"><description>line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -151,16 +134,11 @@ In interval notation, the solution set is <m>(-6,\infty)</m>.</p>
         \draw[red,very thick,<->, >=stealth'] (-10/3, -2)--(5/6,8);
         \filldraw[red] (0,6) circle (.15);
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
-</answer></exercise>
+        </latex-image></image></sidebyside></answer></exercise>
 
 <exercise><statement><p>Graph the equation <m>~~y=600-1.25x</m></p></statement>
     <answer><sidebyside  width="40%" margins="0% 5%">
-    <image xml:id="y-eq-600-minus-1pt25x">
-        <description>line</description>
-        <latex-image>
+    <image xml:id="y-eq-600-minus-1pt25x"><description>line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -177,16 +155,11 @@ In interval notation, the solution set is <m>(-6,\infty)</m>.</p>
         \draw[red,very thick,<->, >=stealth'] (-1.6, 8)--(6,-1.5);
         \filldraw[red] (0,6) circle (.15);
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
-</answer></exercise>
+        </latex-image></image></sidebyside></answer></exercise>
 
 <exercise><statement><p>Graph the equation <m>~~45x-30y=15</m></p></statement>
     <answer><sidebyside  width="40%" margins="0% 5%">
-    <image xml:id="fig-45x-minus30y-eq15">
-        <description>line</description>
-        <latex-image>
+    <image xml:id="fig-45x-minus30y-eq15"><description>line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -202,10 +175,7 @@ In interval notation, the solution set is <m>(-6,\infty)</m>.</p>
         }
         \draw[red,very thick,<->, >=stealth'] (-1, -2)--(6,255/30);
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
-</answer></exercise>
+        </latex-image></image></sidebyside></answer></exercise>
 
 </subsubsection>
 </subsection>
