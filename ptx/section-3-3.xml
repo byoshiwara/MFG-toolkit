@@ -142,7 +142,7 @@
             <mrow>\amp = \dfrac{-4}{2}=-2 \amp\amp \blert{\text{Reduce the fraction.}}</mrow></md></p></li>
     <li><p>We start by simplifyng what's inside parentheses.
         <md><mrow>-2\amp\left(3\sqrt{16} -\sqrt{3(27)}\right)  \amp\amp \blert{\text{Evaluate the radicals.}}</mrow>
-            <mrow>\amp   = -2(3 \cdot 4-\sqrt{81}) \amp\amp \blert{\text{Simplify inside the parentheses.}}mrow>
+            <mrow>\amp   = -2(3 \cdot 4-\sqrt{81}) \amp\amp \blert{\text{Simplify inside the parentheses.}}</mrow>
             <mrow>\amp   = -2(12-9)=-6</mrow></md></p></li>
     <li><p>We start by simplifying the radicand.
         <md><mrow>6-3\sqrt[3]{27-7(5)} \amp = 6-3\sqrt[3]{27-35}  \amp\amp \blert{\text{Subtract under the radical.}}
