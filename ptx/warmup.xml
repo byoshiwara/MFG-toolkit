@@ -57,24 +57,15 @@
 
 <subsubsection><title>Examples</title>
 
-<example>
-    <statement><p>Solve <m>~~-3x+1 \gt 7~~</m> and graph the solutions on a number line.</p></statement>
-    <solution><p>
-    <md>
-        <mrow>
-             -3x+1 \amp \gt 7 \amp \amp ~\blert{\text{ Subtract 1 from both sides.}}
-        </mrow>
-        <mrow>
-            -3x \amp \gt 6 \amp \amp\ 
+<example><statement><p>Solve <m>~~-3x+1 \gt 7~~</m> and graph the solutions on a number line.</p></statement>
+    
+<solution><p><md><mrow>-3x+1 \amp \gt 7 \amp \amp ~\blert{\text{ Subtract 1 from both sides.}}</mrow>
+        <mrow>-3x \amp \gt 6 \amp \amp\ 
             \begin{array}{l}
                 \blert{\text{Divide both sides by }{-3}\text{, and reverse }}\\
                 \blert{\text{the direction of the inequality.}}
-                \end{array}
-        </mrow>
-        <mrow>
-            x \amp \gt -2
-        </mrow>
-    </md>
+                \end{array}</mrow>
+        <mrow>x \amp \gt -2</mrow></md>
     The solutions are all the numbers less than <m>-2</m>.
     The graph of the solutions is shown below.</p>
     <sidebyside width="70%"><image source="images/fig-wu-1.png"><description>line graph</description></image></sidebyside>
@@ -82,18 +73,10 @@
 
 <example><statement><p>Solve <m>~~-3 \lt 2x-5 \le 6~~</m> and graph the solutions on a number line.</p></statement>
 
-<solution><p>
-    <md>
-        <mrow>
-             -3 \amp \lt 2x-5 \le 6 \amp \amp \blert{\text{Add 5 on all three sides of the inequality.}}
-        </mrow>
-        <mrow>
-            2 \amp \lt 2x \le 11 \amp \amp \blert{\text{Divide each side by 2.}}
-        </mrow>
-        <mrow>
-            1 \amp \lt x \le \dfrac{11}{2}   \amp \amp  \blert{\text{Notice that we did not reverse the inequality.}}
-        </mrow>
-    </md>
+<solution><p><md><mrow>-3 \amp \lt 2x-5 \le 6 \amp \amp \blert{\text{Add 5 on all three sides of the inequality.}}</mrow>
+        <mrow>2 \amp \lt 2x \le 11 \amp \amp \blert{\text{Divide each side by 2.}}</mrow>
+        <mrow>1 \amp \lt x \le \dfrac{11}{2}   \amp \amp  \blert{\text{Notice that we did not reverse the inequality.}}
+        </mrow></md>
 The solutions are all the numbers greater than 1 but less than 5.5.
 The graph of the solutions is shown below.</p>
     <sidebyside width="70%"><image source="images/fig-wu-2.png"><description>line graph</description></image></sidebyside>
@@ -105,12 +88,10 @@ The graph of the solutions is shown below.</p>
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve the inequality <m>~~8-4x \gt -2~~</m> and graph the solutions on a number line.</p></statement>
-    <answer>
-        <sidebyside widths="15% 55%" margins="0% 5%" valigns="middle middle">
+    
+<answer><sidebyside widths="15% 55%" margins="0% 5%" valigns="middle middle">
             <p><m>x \lt \dfrac{5}{2}</m></p>
-            <image xml:id="fig-numline-x-lt-5halves">
-                <description>number line</description>
-                <latex-image>
+    <image xml:id="fig-numline-x-lt-5halves"><description>number line</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
@@ -122,19 +103,13 @@ The graph of the solutions is shown below.</p>
                 \draw[red, line width=0.8mm, ->, >=stealth'] (5/2,0) -- (-2.5,0);
                 \draw[red, fill=white] (5/2,0) circle (.1) node[above, yshift=2] {$\frac{5}{2}$};
                 \end{tikzpicture}]]>
-                </latex-image>
-            </image>
-        </sidebyside>
-    </answer>
-</exercise>
+                </latex-image></image></sidebyside></answer></exercise>
 
 <exercise><statement><p>Solve the inequality <m>~~-6 \le \dfrac{4-x}{3} \lt 2~~</m> and graph the solutions on a number line.</p></statement>
-    <answer>
-        <sidebyside widths="15% 55%" margins="0% 5%" valigns="middle middle">
+    
+<answer><sidebyside widths="15% 55%" margins="0% 5%" valigns="middle middle">
             <p><m>22 \ge x \gt -2</m></p>
-            <image xml:id="fig-numline-x-btwn-neg2-and22">
-                <description>number line</description>
-                <latex-image>
+    <image xml:id="fig-numline-x-btwn-neg2-and22"><description>number line</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
@@ -150,20 +125,13 @@ The graph of the solutions is shown below.</p>
                 \draw[red, fill=white] (-2,0) circle (.3) node[above, yshift=2] {$-2$};
                 \filldraw[red] (22,0) circle (.3) node[above, yshift=2] {$22$};
                 \end{tikzpicture}]]>
-                </latex-image>
-            </image>
-        </sidebyside>
-    </answer>
-</exercise>
+                </latex-image></image></sidebyside> </answer></exercise>
 
 <exercise><statement><p>Solve the inequality <m>~~3x-5 \lt -6x+7~~</m> and graph the solutions on a number line.</p></statement>
 
-    <answer>
-        <sidebyside widths="15% 55%" margins="0% 5%" valigns="middle middle">
+<answer><sidebyside widths="15% 55%" margins="0% 5%" valigns="middle middle">
             <p><m>x \lt \dfrac{4}{3}</m></p>
-            <image xml:id="fig-numline-x-lt-4thirds">
-                <description>number line</description>
-                <latex-image>
+    <image xml:id="fig-numline-x-lt-4thirds"><description>number line</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
@@ -175,19 +143,13 @@ The graph of the solutions is shown below.</p>
                 \draw[red, line width=0.8mm, ->, >=stealth'] (4/3,0) -- (-2.5,0);
                 \draw[red, fill=white] (4/3,0) circle (.1) node[above, yshift=2] {$\frac{4}{3}$};
                 \end{tikzpicture}]]>
-                </latex-image>
-            </image>
-        </sidebyside>
-    </answer>
-</exercise>
+                </latex-image></image></sidebyside></answer></exercise>
 
 <exercise><statement><p>Solve the inequality <m>~~-6 \gt 4-5b \gt -21~~</m> and graph the solutions on a number line.</p></statement>
-    <answer>
-        <sidebyside widths="15% 55%" margins="0% 5%" valigns="middle middle">
+    
+<answer><sidebyside widths="15% 55%" margins="0% 5%" valigns="middle middle">
             <p><m>2 \lt b \lt 5</m></p>
-            <image xml:id="ffig-numline-b-btwn-2-and5">
-                <description>number line</description>
-                <latex-image>
+    <image xml:id="fig-numline-b-btwn-2-and5"><description>number line</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
@@ -200,11 +162,7 @@ The graph of the solutions is shown below.</p>
                 \draw[red, fill=white] (2,0) circle (.1);
                 \draw[red, fill=white] (5,0) circle (.1);
                 \end{tikzpicture}]]>
-                </latex-image>
-            </image>
-        </sidebyside>
-    </answer>
-</exercise>
+                </latex-image></image></sidebyside></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -271,9 +229,7 @@ The ordered pair <m>(-3,2)</m> satisfies the equation, so it is a solution.</p><
         <li><m>(-5,0)</m></li>
         <li><m>(1,-4)</m></li>
         <li><m>(-1,-6)</m></li></ol></p>
-    <image xml:id="y-eq-xsq-plus-2x-minus6">
-        <description>parabola</description>
-        <latex-image>
+    <image xml:id="y-eq-xsq-plus-2x-minus6"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -289,10 +245,8 @@ The ordered pair <m>(-3,2)</m> satisfies the equation, so it is a solution.</p><
         }
         \draw[samples=65,domain={-5:3},smooth,variable=\x,magenta!90!black,very thick, <->,>=stealth'] plot ( {\x}, {(\x)^2+2*\x-5});
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
-</statement>
+        </latex-image></image></sidebyside></statement>
+
 <solution><p>The graph of an equation is just a picture of its solutions, so points that lie on the graph are solutions of the equation.</p>
 <p> The points <m>(-3,-2)</m> and <m>(-1,-6)</m> lie on the graph, so they represent solutions of the equation. The points <m>(-5,0)</m> and <m>(1,-4)</m> do not lie on the graph, so they are not solutions of the equation.
 </p></solution></example>
