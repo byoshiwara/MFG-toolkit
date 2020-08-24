@@ -26,8 +26,8 @@
 <example><statement><p>Make a table of values for <m>y=x^2+2x-8</m>, and graph the equation.</p></statement>
 
 <solution><p>We plot the points from the table and connect them with a smooth curve.</p>
-    <sidebyside widths="65% 35%" valigns="middle middle"><p><tabular left="minor">             
-        <col top="minor" right="minor"  bottom="minor" halign="center"/><col top="minor" right="minor"  bottom="minor" halign="center"/><col/><col top="none" halign="left" right="none" bottom="none"/>
+    <sidebyside widths="65% 35%" valigns="middle middle"><tabular left="minor">             
+        <col top="minor" right="minor"   halign="center"/><col top="minor" right="minor" halign="center"/><col/><col top="none" halign="left" right="none"/>
                     <row>
                         <cell bottom="minor"><m>x</m></cell>
                         <cell bottom="minor"><m>y</m></cell>
@@ -78,7 +78,7 @@
                         <cell bottom="minor"><m>7</m></cell>
                         <cell></cell>
                         <cell><m>(3)^2+2(3)-8=9+6-8</m></cell></row>
-                    </tabular></p>
+                    </tabular>
     <image xml:id="y-eq-xsq-plus-2x-minus8"><description>parabola y=xsqd+2x-8</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -132,7 +132,7 @@
         <li><m>-21</m></li></ol></p></answer></exercise>
 
 <exercise><statement><p>Make a table of values for <m>y=x^2-x-6</m>, and graph the equation.</p>
-    <sidebyside widths="10% 50%" valigns="middle middle"><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+    <sidebyside widths="10% 50%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
                     <row>
                         <cell bottom="minor"><m>x</m></cell>
                         <cell bottom="minor"><m>y</m></cell></row>
@@ -163,7 +163,7 @@
                     <row>
                         <cell bottom="minor"><m>5</m></cell>
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p>
+                    </tabular>
         <image source="images/fig-10x10-grid"><description>grid</description></image></sidebyside></statement>
     <answer><sidebyside widths="10% 35%" valigns="middle middle"><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
                     <row>

@@ -79,7 +79,7 @@
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Complete the table for the function and its transformation.
-    <me>f(x)=x^3,~~g(x)=f(x)-4</me>
+    <me>f(x)=x^3,~~g(x)=f(x)-4</me></p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -102,9 +102,9 @@
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell></row>
-                    </tabular></sidebyside></p></statement>
+                    </tabular></sidebyside></statement>
 
-<solution><p>This transformation is a shift in the <m>y</m>-direction. We subtract 4 from each value of <m>f(x)</m>.
+<solution><p>This transformation is a shift in the <m>y</m>-direction. We subtract 4 from each value of <m>f(x)</m>.</p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -127,10 +127,10 @@
                         <cell><m>-4</m></cell>
                         <cell><m>-3</m></cell>
                         <cell><m>4</m></cell></row>
-                    </tabular></sidebyside></p></solution></example>
+                    </tabular></sidebyside></solution></example>
 
 <example><statement><p>Complete the table for the function and its transformation.
-    <me>f(x)=|x|,~~g(x)=f(x-4)</me>
+    <me>f(x)=|x|,~~g(x)=f(x-4)</me></p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -153,9 +153,9 @@
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell></row>
-                    </tabular></sidebyside></p></statement>
+                    </tabular></sidebyside></statement>
 
-<solution><p>This transformation is a shift in the <m>x</m>-direction.  It is helpful to insert another row into the table.
+<solution><p>This transformation is a shift in the <m>x</m>-direction.  It is helpful to insert another row into the table.</p>
         
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -186,13 +186,13 @@
                         <cell><m>4</m></cell>
                         <cell><m>2</m></cell>
                         <cell><m>0</m></cell></row>
-                    </tabular></sidebyside></p></solution></example>
+                    </tabular></sidebyside></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Complete the table for the function and its transformation.
-    <me>f(x)=\dfrac{1}{x},~~g(x)=-2f(x)</me>
+    <me>f(x)=\dfrac{1}{x},~~g(x)=-2f(x)</me></p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -215,9 +215,9 @@
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell></row>
-                    </tabular></sidebyside></p></statement>
+                    </tabular></sidebyside></statement>
 
-    <answer><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <answer><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-4</m></cell>
@@ -239,10 +239,10 @@
                         <cell>undefined</cell>
                         <cell><m>-1</m></cell>
                         <cell><m>\dfrac{-1}{2}</m></cell></row>
-                    </tabular></sidebyside></p></answer></exercise>
+                    </tabular></sidebyside></answer></exercise>
 
 <exercise><statement><p>Complete the table for the function and its transformation.
-    <me>f(x)=x^2,~~g(x)=f(x+1)</me>
+    <me>f(x)=x^2,~~g(x)=f(x+1)</me></p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -265,9 +265,9 @@
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell></row>
-                    </tabular></sidebyside></p></statement>
+                    </tabular></sidebyside></statement>
 
-    <answer><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <answer><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-4</m></cell>
@@ -296,7 +296,7 @@
                         <cell><m>1</m></cell>
                         <cell><m>9</m></cell>
                         <cell><m>25</m></cell></row>
-                    </tabular></sidebyside></p></answer></exercise>
+                    </tabular></sidebyside></answer></exercise>
 </subsubsection>
 </subsection>
 

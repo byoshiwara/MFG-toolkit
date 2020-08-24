@@ -35,13 +35,13 @@
     <li><m>x \lt -3 ~\text{or}~ x\ge -1</m></li>
     <li><m>-6 \le x \lt-4 ~\text{or}~ -2 \lt x \le 0</m></li></ol></p></statement>
 <answer><p><ol label="a">
-        <li><m>(-5,-3]</m>
+        <li><p><m>(-5,-3]</m></p>
             <sidebyside width="70%"><image source="images/fig-2-5-5.png"><description>interval</description></image></sidebyside></li>
-        <li><m>(-6, \infty)</m>
+        <li><p><m>(-6, \infty)</m></p>
             <sidebyside width="70%"><image source="images/fig-2-5-6.png"><description>interval</description></image></sidebyside></li>
-        <li><m>(-\infty,-3) \cup [-1,\infty)</m>
+        <li><p><m>(-\infty,-3) \cup [-1,\infty)</m></p>
             <sidebyside width="70%"><image source="images/fig-2-5-7.png"><description>interval</description></image></sidebyside></li>
-        <li><m>[-6,-4) \cup (-2,0]</m>
+        <li><p><m>[-6,-4) \cup (-2,0]</m></p>
             <sidebyside width="70%"><image source="images/fig-2-5-8.png"><description>interval</description></image></sidebyside></li>
 </ol></p></answer></exercise>
 </subsubsection>
@@ -65,11 +65,11 @@ The solutions are all real numbers greater than 1 but less than or equal to <m>\
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve the inequality <m>~~~23 \gt 9-2b \ge 13~~~</m> and write your solution with interval notation.</p></statement>
-    <answer><m>(-7,-2]</m></answer></exercise>
+    <answer><p><m>(-7,-2]</m></p></answer></exercise>
 
 <exercise><statement><p>Solve the inequality <m>~~~-8 \le \dfrac{5w+3}{4} \lt -3~~~</m> and write your solution with interval notation.
     </p></statement>          
-<answer><m>[-7,-3)</m></answer></exercise>
+<answer><p><m>[-7,-3)</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 

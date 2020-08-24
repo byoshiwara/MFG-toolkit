@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="WarmUp"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Warm-Up</title>
 
@@ -13,39 +12,40 @@
                     
 <example><statement><p>Solve the equation <m>~~\dfrac{2}{3}x-5=7</m> </p></statement>
                     
-<solution><me>\begin{aligned}[t]
-                \dfrac{2}{3}x-5 \amp = 7 \amp \amp \blert{\text{Add 5 to both sides.}}\\
-                \dfrac{2}{3}x \amp = 12 \amp \amp \blert{\text{To divide both sides by } \dfrac{2}{3}, \text{we:}}\\
-                \dfrac{3}{2}\left(\dfrac{2}{3}x\right) \amp =\dfrac{3}{2}(12) \amp \amp \blert{\text{Multiply by the reciprocal of }\dfrac{2}{3}.}\\
-                x \amp = 18 \amp \amp \blert{\text{The solution is 18.}}
-                \end{aligned}</me></solution></example>
+<solution>
+    <p><md>
+        <mrow>\dfrac{2}{3}x-5 \amp = 7 \amp \amp \blert{\text{Add 5 to both sides.}}</mrow>
+        <mrow>\dfrac{2}{3}x \amp = 12 \amp \amp \blert{\text{To divide both sides by } \dfrac{2}{3}, \text{we:}}</mrow>
+        <mrow>\dfrac{3}{2}\left(\dfrac{2}{3}x\right) \amp =\dfrac{3}{2}(12) \amp \amp \blert{\text{Multiply by the reciprocal of }\dfrac{2}{3}.}</mrow>
+        <mrow>x \amp = 18 \amp \amp \blert{\text{The solution is 18.}}</mrow>
+    </md></p></solution></example>
 
 <example><statement><p>Solve the equation <m>~~2x+7=4x-3</m></p></statement>
 
-<solution>To begin, we must get both variable terms on the same side of the equation.
-    <me>\begin{aligned}[t]
-                2x+7 \amp = 4x-3 \amp \amp \blert{\text{Subtract}~2x~\text{from both sides.}}\\
-                7 \amp = 2x-3 \amp \amp \blert{\text{Add 3 to both sides.}}\\
-                10 \amp =2x   \amp \amp \blert{\text{Divide both sides by 2.}}\\
-                5 \amp = x \amp \amp \blert{\text{The solution is 5.}}
-                \end{aligned}</me></solution></example>
+<solution><p>To begin, we must get both variable terms on the same side of the equation.
+    <md>
+        <mrow>2x+7 \amp = 4x-3 \amp \amp \blert{\text{Subtract}~2x~\text{from both sides.}}</mrow>
+        <mrow>7 \amp = 2x-3 \amp \amp \blert{\text{Add 3 to both sides.}}</mrow>
+        <mrow>10 \amp =2x   \amp \amp \blert{\text{Divide both sides by 2.}}</mrow>
+        <mrow>5 \amp = x \amp \amp \blert{\text{The solution is 5.}}</mrow>
+    </md></p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve the equation <m>~~10=1-\dfrac{3x}{7}</m></p></statement>
-    <answer><m>-21</m></answer></exercise>
+    <answer><p><m>-21</m></p></answer></exercise>
 
 <exercise><statement><p>Solve the equation <m>~~6p-8=-3p-26</m> </p></statement>
-    <answer><m>-2</m></answer></exercise>
+    <answer><p><m>-2</m></p></answer></exercise>
 
 <exercise><statement><p>Solve the equation <m>~~12=\dfrac{7u+4}{5}</m> </p>
 <p>Hint:  Start by clearing the fraction:  multiply both sides by 5.</p></statement>
-    <answer><m>8</m></answer></exercise>
+    <answer><p><m>8</m></p></answer></exercise>
 
 <exercise><statement><p>Solve the equation <m>~~0=13q+25-17q+7</m> </p>
 <p>Hint:  Start by combining like terms.</p></statement>
-    <answer><m>8</m></answer></exercise>
+    <answer><p><m>8</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -113,77 +113,77 @@ The graph of the solutions is shown below.</p>
 <answer><sidebyside widths="15% 55%" margins="0% 5%" valigns="middle middle">
             <p><m>x \lt \dfrac{5}{2}</m></p>
     <image xml:id="fig-numline-x-lt-5halves"><description>number line</description><latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
-                \begin{tikzpicture}
-                \draw[black,very thick, ->, >=stealth'] (-2.5,0) -- (5.5,0) ;
-                \foreach \x in {-2,-1, ...,5} {
-                 \draw[black] (\x,.15) -- ++(0,-.15) node[below] {$\x$};
-                }
-                \draw[red, line width=0.8mm, ->, >=stealth'] (5/2,0) -- (-2.5,0);
-                \draw[red, fill=white] (5/2,0) circle (.1) node[above, yshift=2] {$\frac{5}{2}$};
-                \end{tikzpicture}]]>
-                </latex-image></image></sidebyside></answer></exercise>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}
+        \draw[black,very thick, ->, >=stealth'] (-2.5,0) -- (5.5,0) ;
+        \foreach \x in {-2,-1, ...,5} {
+         \draw[black] (\x,.15) -- ++(0,-.15) node[below] {$\x$};
+        }
+        \draw[red, line width=0.8mm, ->, >=stealth'] (5/2,0) -- (-2.5,0);
+        \draw[red, fill=white] (5/2,0) circle (.1) node[above, yshift=2] {$\frac{5}{2}$};
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside></answer></exercise>
 
 <exercise><statement><p>Solve the inequality <m>~~-6 \le \dfrac{4-x}{3} \lt 2~~</m> and graph the solutions on a number line.</p></statement>
     
 <answer><sidebyside widths="15% 55%" margins="0% 5%" valigns="middle middle">
             <p><m>22 \ge x \gt -2</m></p>
     <image xml:id="fig-numline-x-btwn-neg2-and22"><description>number line</description><latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
-                \begin{tikzpicture} [scale=.25]
-                \draw[black,very thick, ->, >=stealth'] (-5.5,0) -- (25.5,0) ;
-                \foreach \x in {-5,-4, ..., 25} {
-                 \draw[black] (\x,.3) -- ++(0,-.3);
-                }
-                \foreach \x in {-5,5,10,15,20} {
-                 \draw[black] (\x,.5) -- ++(0,-.5) node[below] {$\x$};
-                }
-                \draw[red, line width=0.8mm] (-2,0) -- (22,0);
-                \draw[red, fill=white] (-2,0) circle (.3) node[above, yshift=2] {$-2$};
-                \filldraw[red] (22,0) circle (.3) node[above, yshift=2] {$22$};
-                \end{tikzpicture}]]>
-                </latex-image></image></sidebyside> </answer></exercise>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.25]
+        \draw[black,very thick, ->, >=stealth'] (-5.5,0) -- (25.5,0) ;
+        \foreach \x in {-5,-4, ..., 25} {
+         \draw[black] (\x,.3) -- ++(0,-.3);
+        }
+        \foreach \x in {-5,5,10,15,20} {
+         \draw[black] (\x,.5) -- ++(0,-.5) node[below] {$\x$};
+        }
+        \draw[red, line width=0.8mm] (-2,0) -- (22,0);
+        \draw[red, fill=white] (-2,0) circle (.3) node[above, yshift=2] {$-2$};
+        \filldraw[red] (22,0) circle (.3) node[above, yshift=2] {$22$};
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside> </answer></exercise>
 
 <exercise><statement><p>Solve the inequality <m>~~3x-5 \lt -6x+7~~</m> and graph the solutions on a number line.</p></statement>
 
 <answer><sidebyside widths="15% 55%" margins="0% 5%" valigns="middle middle">
             <p><m>x \lt \dfrac{4}{3}</m></p>
     <image xml:id="fig-numline-x-lt-4thirds"><description>number line</description><latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
-                \begin{tikzpicture}
-                \draw[black,very thick, ->, >=stealth'] (-2.5,0) -- (5.5,0) ;
-                \foreach \x in {-2,-1, ...,5} {
-                 \draw[black] (\x,.15) -- ++(0,-.15) node[below] {$\x$};
-                }
-                \draw[red, line width=0.8mm, ->, >=stealth'] (4/3,0) -- (-2.5,0);
-                \draw[red, fill=white] (4/3,0) circle (.1) node[above, yshift=2] {$\frac{4}{3}$};
-                \end{tikzpicture}]]>
-                </latex-image></image></sidebyside></answer></exercise>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}
+        \draw[black,very thick, ->, >=stealth'] (-2.5,0) -- (5.5,0) ;
+        \foreach \x in {-2,-1, ...,5} {
+         \draw[black] (\x,.15) -- ++(0,-.15) node[below] {$\x$};
+        }
+        \draw[red, line width=0.8mm, ->, >=stealth'] (4/3,0) -- (-2.5,0);
+        \draw[red, fill=white] (4/3,0) circle (.1) node[above, yshift=2] {$\frac{4}{3}$};
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside></answer></exercise>
 
 <exercise><statement><p>Solve the inequality <m>~~-6 \gt 4-5b \gt -21~~</m> and graph the solutions on a number line.</p></statement>
     
 <answer><sidebyside widths="15% 55%" margins="0% 5%" valigns="middle middle">
             <p><m>2 \lt b \lt 5</m></p>
     <image xml:id="fig-numline-b-btwn-2-and5"><description>number line</description><latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
-                \begin{tikzpicture} 
-                \draw[black,very thick, ->, >=stealth'] (-1.5,0) -- (6.5,0) ;
-                \foreach \x in {-1,0, ...,6} {
-                 \draw[black] (\x,.15) -- ++(0,-.15) node[below] {$\x$};
-                }
-                \draw[red, line width=0.8mm] (2,0) -- (5,0);
-                \draw[red, fill=white] (2,0) circle (.1);
-                \draw[red, fill=white] (5,0) circle (.1);
-                \end{tikzpicture}]]>
-                </latex-image></image></sidebyside></answer></exercise>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \draw[black,very thick, ->, >=stealth'] (-1.5,0) -- (6.5,0) ;
+        \foreach \x in {-1,0, ...,6} {
+         \draw[black] (\x,.15) -- ++(0,-.15) node[below] {$\x$};
+        }
+        \draw[red, line width=0.8mm] (2,0) -- (5,0);
+        \draw[red, fill=white] (2,0) circle (.1);
+        \draw[red, fill=white] (5,0) circle (.1);
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -195,19 +195,19 @@ The graph of the solutions is shown below.</p>
 <example><statement><p>Verify that <m>x=-5</m> is a solution of the equation <me>~~x^2+2x-15=0</me> </p></statement>
 
 <solution><p>We show that substituting <m>-5</m> for <m>x</m> makes the equation true.  When we substitute a negative number for a variable, we should enclose the number in parentheses.
-            <me>\begin{aligned}[t]
-                x^2+2x-15 \amp = (\alert{-5})^2+2(\alert{-5})-15\\
-                         \amp = 25-10-15=0
-                \end{aligned}</me>
+    <md>
+        <mrow>x^2+2x-15 \amp = (\alert{-5})^2+2(\alert{-5})-15</mrow>
+        <mrow>\amp = 25-10-15=0</mrow>
+    </md>
 Because the expression does equal <m>0</m>, we see that <m>x=-5</m> is a solution.</p></solution></example>
 
 <example><statement><p>Verify that <m>x=-3</m> is not a solution of the equation <me>~~\sqrt{2x+10}-3x=8</me> </p></statement>
 
 <solution><p>We show that substituting <m>-3</m> for <m>x</m> does not make the equation true.
-            <me>\begin{aligned}[t]
-                \sqrt{2x+10}-3x \amp = \sqrt{2(\alert{-3})+10}-3(\alert{-3})\\
-                         \amp = \sqrt{4}+9=2+9=11 \not= 8
-                \end{aligned}</me>
+    <md>
+        <mrow>\sqrt{2x+10}-3x \amp = \sqrt{2(\alert{-3})+10}-3(\alert{-3})</mrow>
+        <mrow>\amp = \sqrt{4}+9=2+9=11 \not= 8</mrow>
+    </md>
 The left side of the equation does not equal 8 when <m>x=-3</m>, so <m>x=-3</m> is not a solution.</p></solution>
 </example>
 </subsubsection>
@@ -277,23 +277,22 @@ The ordered pair <m>(-3,2)</m> satisfies the equation, so it is a solution.</p><
 
 <exercise><statement><p>Find a solution of the equation with the given coordinate.
     <me>6x-5y=-3,~~~~(2,?)</me></p></statement>
-    <answer><m>(2,3)</m></answer></exercise>
+    <answer><p><m>(2,3)</m></p></answer></exercise>
 
 <exercise><statement><p>Find a solution of the equation with the given coordinate.
     <me>y=\frac{3}{4}x+8,~~~~(?,-1)</me></p></statement>
-    <answer><m>(-12,-1)</m></answer></exercise>
+    <answer><p><m>(-12,-1)</m></p></answer></exercise>
 
 <exercise><statement><p>Find a solution of the equation with the given coordinate.</p>
     <sidebyside width="40%"><image source="images/fig-wu-4.png"><description>graph</description></image></sidebyside>
 </statement>
-    <answer><m>(16,4)</m></answer></exercise>
+    <answer><p><m>(16,4)</m></p></answer></exercise>
 
 <exercise><statement><p>Find a solution of the equation with the given coordinate.</p>
     <sidebyside width="40%"><image source="images/fig-wu-5.png"><description>graph</description></image></sidebyside>
 </statement>
-    <answer><m>(2,-5)</m></answer></exercise>
+    <answer><p><m>(2,-5)</m></p></answer></exercise>
 </subsubsection>
 
 </subsection>
 </section>
-<!-- </book>  </pretext> -->

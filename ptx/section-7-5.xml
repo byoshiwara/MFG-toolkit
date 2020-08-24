@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="EquationswithFractions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Equations that Include Algebraic Fractions</title>
                  
@@ -62,10 +61,10 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Use a graph to solve the equation <m>~2x^3+7x^2-7x-12=0</m></p></statement>
-<answer><m>x = -4,~ -1,~ \dfrac{3}{2}</m></answer></exercise>
+<answer><p><m>x = -4,~ -1,~ \dfrac{3}{2}</m></p></answer></exercise>
 
 <exercise><statement><p>Use a graph to solve the equation <m>~\dfrac{24}{x+4}=11+2x-x^2</m></p></statement>
-<answer><m>x=-1,~4</m></answer></exercise>
+<answer><p><m>x=-1,~4</m></p></answer></exercise>
 
 </subsubsection>
 </subsection>
@@ -74,10 +73,10 @@
 
 <introduction><p>Cross-multiplying is a short-cut method for clearing the fractions from a proportion.  Remember that it works only on proportions, not on other types of equations or operations on fractions!</p>
 
-    <p><assemblage><title>Property of Proportions</title>
+    <assemblage><title>Property of Proportions</title>
         <p>We can clear the fractions from a proportion by cross-multiplying.
             <me>\text{If}~~~~\dfrac{a}{b} = \dfrac{c}{d},~~~~\text{then}~~~~ad=bc.</me></p></assemblage>
-</p></introduction>
+</introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -103,7 +102,7 @@ You will need 40 pounds of coffee beans.</p></solution></example>
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve <m>~\dfrac{182}{65} = \dfrac{21}{w}</m></p></statement>
-    <answer><m>w=7.5</m></answer></exercise>
+    <answer><p><m>w=7.5</m></p></answer></exercise>
 
 <exercise><statement><p>A cinnamon bread recipe calls for <m>1 \frac{1}{4}</m>tablespoons of cinnamon and 5 cups of flour. Write and solve a proportion to discover how much cinnamon would be needed with 8 cups of flour.</p></statement>
     <answer><p><m>\dfrac{1.25}{5} = \dfrac{x}{8};~~2~</m> tablespoons</p></answer></exercise>
