@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="Joint-Variation"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Joint Variation</title>
 
@@ -25,10 +24,10 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Evaluate <m>~g(a,b) = \dfrac{4a^3}{b^{1/2}}~</m> for <m>a=8</m> and <m>b=12</m>.</p></statement>
-<answer><m>591.207</m></answer></exercise>
+<answer><p><m>591.207</m></p></answer></exercise>
 
 <exercise><statement><p><m>~F(d,w) = 6.5d^{0.25}w^{0.4}~</m>. Evaluate <m>~F(32, 18)</m>.</p></statement>
-<answer><m>49.126</m></answer></exercise>
+<answer><p><m>49.126</m></p></answer></exercise>
 </subsubsection>
 
 </subsection>
@@ -40,7 +39,7 @@
 <subsubsection><title>Example</title>
 
 <example><statement><p>The table shows values for <m>~z=f(x,y)</m>.
-
+</p>
     <sidebyside><tabular top="minor" halign="center"  right="minor" left="minor" bottom="minor">
         <col right="major" /><col/><col/><col/><col/><col/>
         
@@ -87,7 +86,7 @@
             <cell><m>80</m></cell>
             <cell><m>125</m></cell></row>
     </tabular></sidebyside>
-<ol label="a">
+<p><ol label="a">
     <li>Evaluate <m>~f(3,5)</m>.</li>
     <li>Solve the equation <m>~f(x,y) = 16.~</m> Give your answer as an ordered pair.</li>
     <li>Is the function <m>~f(2,y)~</m> increasing or decreasing?</li></ol></p></statement>
@@ -101,7 +100,7 @@
 
  <subsubsection><title>Exercise</title>       
 
-<exercise><statement><p>The table shows values for <m>~z=f(x,y)</m>.
+<exercise><statement><p>The table shows values for <m>~z=f(x,y)</m>.</p>
 
     <sidebyside><tabular top="minor" halign="center"  right="minor" left="minor" bottom="minor">
         <col right="major" /><col/><col/><col/><col/><col/>
@@ -148,7 +147,7 @@
             <cell><m>66</m></cell>
             <cell><m>50</m></cell>
             <cell><m>26</m></cell></row>
-    </tabular></sidebyside></p>
+    </tabular></sidebyside>
 <p><ol label="a">
     <li>Evaluate <m>~f(8,20)</m>.</li>
     <li>Solve the equation <m>~f(x,y) = 62.~</m> Give your answer as an ordered pair.</li>
@@ -167,7 +166,7 @@
 <subsubsection><title>Example</title>
 
 <example><statement><p>The table shows values for <m>~z=f(x,y)</m>, where <m>z</m> varies directly with <m>x</m> and inversely with the square of <m>y</m>. Find the constant of variation.
-
+</p>
     <sidebyside><tabular top="minor" halign="center"  right="minor" left="minor" bottom="minor">
         <col right="major" /><col/><col/><col/><col/><col/>
         
@@ -201,7 +200,7 @@
             <cell><m>60</m></cell>
             <cell><m>\dfrac{80}{3}</m></cell>
             <cell><m>15</m></cell></row>
-    </tabular></sidebyside></p></statement>
+    </tabular></sidebyside></statement>
 
 <solution><p>The function <m>f</m> has the form <m>z=\dfrac{kx}{y^2}</m>.  To find <m>k</m> we substitue values for the variables.  For example, <m>x=60</m> when <m>x=1</m> and <m>y=1</m>, so
     <me>60=\dfrac{k(1)}{1^2}</me>
@@ -210,7 +209,7 @@ and <m>k=60</m>.  Thus, <m>z=\dfrac{60x}{y^2}</m>.</p></solution></example>
 
 <subsubsection><title>Exercise</title>       
 
-<exercise><statement><p>The table shows values for <m>~z=f(x,y)</m>, where <m>z</m> varies directly with <m>x^2</m> and <m>y^2</m>. Find the constant of variation.
+<exercise><statement><p>The table shows values for <m>~z=f(x,y)</m>, where <m>z</m> varies directly with <m>x^2</m> and <m>y^2</m>. Find the constant of variation.</p>
 
     <sidebyside><tabular top="minor" halign="center"  right="minor" left="minor" bottom="minor">
         <col right="major" /><col/><col/><col/><col/><col/>
@@ -245,15 +244,11 @@ and <m>k=60</m>.  Thus, <m>z=\dfrac{60x}{y^2}</m>.</p></solution></example>
             <cell><m>576</m></cell>
             <cell><m>1296</m></cell>
             <cell><m>2304</m></cell></row>
-    </tabular></sidebyside></p></statement>
+    </tabular></sidebyside></statement>
 
-<answer><m>z=\dfrac{1}{4}x^2y^2</m></answer></exercise>
+<answer><p><m>z=\dfrac{1}{4}x^2y^2</m></p></answer></exercise>
 </subsubsection>
 
 </subsection>
 
-
-
-
-</section> 
-<!-- </book>  </pretext> -->
+</section>

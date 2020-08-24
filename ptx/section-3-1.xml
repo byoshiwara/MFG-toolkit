@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="Variation" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Variation</title>
                  
@@ -9,7 +8,7 @@
 
 <subsubsection><title>Examples</title>
 
-<introduction><p>In these examples, we assume all variables are positive. We round answers to tenths.</p></introduction>
+<p>In these examples, we assume all variables are positive. We round answers to tenths.</p>
 
 <example>
     <statement><p>Solve <m>~231.90=18.85r^2~</m>.</p></statement>
@@ -40,13 +39,13 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve <m>~1371.8=25R^3</m>.</p></statement>
-<answer><m>3.8</m></answer></exercise>
+<answer><p><m>3.8</m></p></answer></exercise>
 
 <exercise><statement><p>Solve <m>~13.03=\dfrac{380}{h^2}</m>.</p></statement>
-<answer><m>5.4</m></answer></exercise>
+<answer><p><m>5.4</m></p></answer></exercise>
 
 <exercise><statement><p>Solve <m>~0.065=\dfrac{12}{p}</m>.</p></statement>
-<answer><m>184.6</m></answer></exercise>
+<answer><p><m>184.6</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -122,7 +121,7 @@ The graph is shown below.</p>
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside></statement>
     
-<answer><m>(1,0.8),~(2,0.2),~(4,0.05)</m><sidebyside width="30%"><image xml:id="B-eq-pt8-over-d-sq">
+<answer><p><m>(1,0.8),~(2,0.2),~(4,0.05)</m></p><sidebyside width="30%"><image xml:id="B-eq-pt8-over-d-sq">
         <description>reciprocal squared</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -156,7 +155,7 @@ The graph is shown below.</p>
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside></statement>
     
-<answer><m>\left(1,\dfrac{3}{8}\right)</m>, <m>\left(2,\dfrac{3}{2}\right)</m>, <m>(4,6)</m>
+<answer><p><m>\left(1,\dfrac{3}{8}\right)</m>, <m>\left(2,\dfrac{3}{2}\right)</m>, <m>(4,6)</m></p>
         <sidebyside width="30%"><image xml:id="d-eq-3eighths-t-sq"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -203,14 +202,13 @@ The constant of variation is 16, and the variation equation is <m>~y=16x^2</m>.<
 
 <exercise><statement><p>Find the constant of variation and the variation equation:</p>
 <p>  <m>y</m> varies inversely with <m>x</m>, and <m>y=31.25</m> when <m>x=640</m>.</p></statement> 
-    <answer><m>k=20,000</m> and <m>y=\dfrac{20,000}{x}</m></answer></exercise> 
+    <answer><p><m>k=20,000</m> and <m>y=\dfrac{20,000}{x}</m></p></answer></exercise> 
 
 <exercise><statement><p>Find the constant of variation and the variation equation:</p>  
 <p><m>y</m> varies directly with the cube of <m>x</m>, and <m>y=119,164</m> when <m>x=6.2</m>.</p></statement> 
-    <answer><m>k=500</m> and <m>y=500x^3</m></answer></exercise>  
+    <answer><p><m>k=500</m> and <m>y=500x^3</m></p></answer></exercise>  
 </subsubsection>
 </subsection>
 
 
 </section>
-<!-- </book>  </pretext> -->

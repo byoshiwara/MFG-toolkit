@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="RationalFunctions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Rational Functions</title>
    
@@ -28,16 +27,16 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Multiply <m>~\dfrac{3xy}{4xy-6y^2} \cdot \dfrac{2x-3y}{12x}</m></p></statement>
-<answer><m>\dfrac{1}{8}</m></answer></exercise>
+<answer><p><m>\dfrac{1}{8}</m></p></answer></exercise>
 
 <exercise><statement><p>Multiply <m>~\dfrac{9x^2-25}{2x-2} \cdot \dfrac{x^2-1}{6x-10}</m></p></statement>
-<answer><m>\dfrac{(3x+5)(x+1)}{4}</m></answer></exercise>
+<answer><p><m>\dfrac{(3x+5)(x+1)}{4}</m></p></answer></exercise>
 
 <exercise><statement><p>Divide <m>~(x^2-9) \div \dfrac{x^2-6x+9}{3x}</m></p></statement>
-<answer><m>\dfrac{3x(x+3)}{x-3}</m></answer></exercise>
+<answer><p><m>\dfrac{3x(x+3)}{x-3}</m></p></answer></exercise>
 
 <exercise><statement><p>Divide <m>~\dfrac{x^2-1}{x+3} \div \dfrac{x^2-x-2}{x^2+5x+6}</m></p></statement>
-<answer><m>\dfrac{(x-1)(x+2)}{x-2}</m></answer></exercise>
+<answer><p><m>\dfrac{(x-1)(x+2)}{x-2}</m></p></answer></exercise>
 
 </subsubsection>
 </subsection>
@@ -76,10 +75,10 @@ Step 4:  Reduce the fraction to find
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Subtract <m>~\dfrac{x+1}{x^2+2x} - \dfrac{x-1}{x^2-3x}</m></p></statement>
-    <answer><m>\dfrac{-3x-1}{x(x+2)(x-3)}</m></answer></exercise>
+    <answer><p><m>\dfrac{-3x-1}{x(x+2)(x-3)}</m></p></answer></exercise>
 
 <exercise><statement><p>Write as a single fraction <m>~y-\dfrac{2}{y^2-1} + \dfrac{3}{y+1}</m> </p></statement>
-    <answer><m>\dfrac{y^3+2y-5}{y^2-1}</m></answer></exercise>
+    <answer><p><m>\dfrac{y^3+2y-5}{y^2-1}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -98,14 +97,13 @@ The original complex fraction is equivalent tp the simple fraction <m>\dfrac{4x+
 
 <exercise><statement><p>Write the complex fraction as a simple fraction in lowest terms:  
     <me>\dfrac{\dfrac{2}{y}+\dfrac{1}{2y}}{y+\dfrac{y}{2}}</me></p></statement>
-<answer><m>\dfrac{5}{3y^2}</m></answer></exercise>
+<answer><p><m>\dfrac{5}{3y^2}</m></p></answer></exercise>
 
 <exercise><statement><p>Write the complex fraction as a simple fraction in lowest terms:  
     <me>\dfrac{H-T}{\dfrac{H}{T}-\dfrac{T}{H}}</me></p></statement>
-<answer><m>\dfrac{TH}{H+T}</m></answer></exercise>
+<answer><p><m>\dfrac{TH}{H+T}</m></p></answer></exercise>
 </subsubsection>
 
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

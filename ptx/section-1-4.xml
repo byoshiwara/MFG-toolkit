@@ -165,7 +165,7 @@ The Lookout Point trail is steeper.</p></solution></example>
         </latex-image>
         </image></sidebyside>
 </statement>
-    <answer><m>50</m></answer></exercise>
+    <answer><p><m>50</m></p></answer></exercise>
 
 <exercise><statement><p>Calculate the slope of the line.</p>
 <p>Hint: Find two points that lie on the intersection of grid lines. For example, you could use <m>(0, 60)</m> and <m>(3, -12)</m>.</p>
@@ -189,19 +189,19 @@ The Lookout Point trail is steeper.</p></solution></example>
         </latex-image>
         </image></sidebyside>
 </statement>
-    <answer><m>-24</m></answer></exercise>
+    <answer><p><m>-24</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
 <subsection><title>3. Calculate slope using a formula</title>
-
-<introduction><p>Recall that the subscripts on the coordinates in <m>~P_1(x_1,y_1)~</m> and <m>~P_2(x_2,y_2)~</m> just mean "first point" and "second point".</p></introduction>
+<introduction>
+<p>Recall that the subscripts on the coordinates in <m>~P_1(x_1,y_1)~</m> and <m>~P_2(x_2,y_2)~</m> just mean "first point" and "second point".</p>
 
 <assemblage><title>Two-Point Formula for Slope</title>
     <p>The slope of the line joining points <m>~P_1(x_1,y_1)~</m> and <m>~P_2(x_2,y_2)~</m> is
         <me>m = \dfrac{\Delta y}{\Delta x} = \dfrac{y_2-y_1}{x_2-x_1}~~~~~~\text{if}~~~~x_2 \not= x_1</me></p>
 </assemblage>
-        
+</introduction>      
 <subsubsection><title>Example</title>
 
 <example><statement><p>Compute the slope of the line joining <m>(-6,2)</m> and <m>(3,-1)</m>.</p></statement>
@@ -219,12 +219,11 @@ or your slope will have the wrong sign.</p></warning>
 <subsubsection><title>Exercises</title>
  
 <exercise><statement><p>Compute the slope of the line joining the points <m>(5,2)</m> and <m>(8,7)</m>.</p></statement>
-    <answer><m>\dfrac{5}{3}</m></answer></exercise>
+    <answer><p><m>\dfrac{5}{3}</m></p></answer></exercise>
 
 <exercise><statement><p>Compute the slope of the line joining the points <m>(-3,-4)</m> and <m>(-7,1)</m>.</p></statement>
-    <answer><m>\dfrac{-5}{4}</m></answer></exercise>
+    <answer><p><m>\dfrac{-5}{4}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

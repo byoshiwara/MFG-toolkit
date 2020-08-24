@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="TwobyTwoSystems" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Systems of Linear Equations in Two Variables</title>
                  
@@ -83,7 +82,7 @@ Yes, <m>(3,-2)</m> is a solution</p></solution></example>
         \end{tikzpicture}]]>
         </latex-image>
 </image></sidebyside></statement>
-<answer><m>(300, 24)</m></answer></exercise>
+<answer><p><m>(300, 24)</m></p></answer></exercise>
 
 </subsubsection>
 </subsection>
@@ -119,9 +118,9 @@ Yes, <m>(3,-2)</m> is a solution</p></solution></example>
 
 <exercise><statement><p>Write equations about the number of calories in a hamburger and in a chocolate shake.<ol label="a">    <li>A hamburger and a chocolate shake together contain 1020 calories.</li>
     <li>Two shakes and three hamburgers contain 2710 calories.</li></ol></p></statement>
-    <answer><ol label="a">
+    <answer><p><ol label="a">
         <li><m>x+y=1020</m></li>
-        <li><m>3x+2y=2710</m></li></ol></answer></exercise>
+        <li><m>3x+2y=2710</m></li></ol></p></answer></exercise>
 
 <exercise><statement><p>Write equations about the vertex angle and the base angles of an isosceles triangle.<ol label="a">
    <li>The vertex angle is <m>15 \degree</m> less than each base angle.</li>

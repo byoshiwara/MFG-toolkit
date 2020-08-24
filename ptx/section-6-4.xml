@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="ProblemSolving" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Problem Solving </title>
                  
@@ -39,10 +38,10 @@ Next, complete the square inside parentheses.
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Write the equation <m>~y=x^2-12x+24~</m> in vertex form.</p> </statement>
-    <answer><m>y=(x-6)^2-12</m></answer></exercise>
+    <answer><p><m>y=(x-6)^2-12</m></p></answer></exercise>
 
 <exercise><statement><p>Write the equation <m>~y=3x^2+12x+4~</m> in vertex form.</p> </statement>
-    <answer><m>y=3(x+2)^2-8</m></answer></exercise>
+    <answer><p><m>y=3(x+2)^2-8</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -197,18 +196,17 @@ The solution is <m>b = -5</m>.</p></solution></example>
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>The point <m>(-6,10)</m> lies on the graph of <m>~y=a(x+3)^2-2.~</m> Solve for <m>a</m>.</p></statement>
-    <answer><m>a=\dfrac{4}{3}</m></answer></exercise>
+    <answer><p><m>a=\dfrac{4}{3}</m></p></answer></exercise>
 
 <exercise><statement><p>The point <m>(-3,8)</m> lies on the graph of <m>~y=-x^2+bx+5.~</m> Solve for <m>b</m>.</p></statement>
-    <answer><m>b=-4</m></answer></exercise>
+    <answer><p><m>b=-4</m></p></answer></exercise>
 
 <exercise><statement><p>The point <m>(8,-12)</m> lies on the graph of <m>~y=ax^2-4x+36.~</m> Solve for <m>a</m>.</p></statement>
-    <answer><m>a=\dfrac{-1}{3}</m></answer></exercise>
+    <answer><p><m>a=\dfrac{-1}{3}</m></p></answer></exercise>
 
 <exercise><statement><p>The point <m>(60,-480)</m> lies on the graph of <m>~y=\dfrac{-2}{3}(x-h)^2+120.~</m> Solve for <m>h</m>.</p></statement>
-    <answer><m>h=30</m></answer></exercise>
+    <answer><p><m>h=30</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

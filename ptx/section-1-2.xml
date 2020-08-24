@@ -32,7 +32,7 @@ the height of a basketball above the ground, <m>h</m>, in feet, is given by
 </subsection>
 
 <subsection><title>2. Solve linear equations and inequalities with parentheses</title>
-
+<introduction>
 <assemblage><title>Strategy for solving linear equations</title>
     <p><ol label="1">
 <li>Simplify each side of the equation:  
@@ -41,7 +41,7 @@ the height of a basketball above the ground, <m>h</m>, in feet, is given by
     side of the equation, and all constsnt terms on the other side.</li>
 <li>Divide both sides by the coefficient of the variable.</li>
 </ol></p></assemblage>
-
+</introduction>
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Solve <m>~~3(2a-4) \ge 4-(1-3a)</m></p></statement>
@@ -71,16 +71,16 @@ the height of a basketball above the ground, <m>h</m>, in feet, is given by
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve the inequality <m>~~-4(x+2)+3(x-2) \ge -2</m> </p></statement>
-    <answer><m>x \le -12</m></answer></exercise>
+    <answer><p><m>x \le -12</m></p></answer></exercise>
 
 <exercise><statement><p>Solve the equation <m>~~4(2-3w)=9-3(2w-1)</m> </p></statement>
-    <answer><m>\dfrac{-1}{2}</m></answer></exercise>
+    <answer><p><m>\dfrac{-1}{2}</m></p></answer></exercise>
 
 <exercise><statement><p>Solve the inequality <m>~~2(3h-6) \lt 5-(h-4)</m> </p></statement>
-    <answer><m>h \lt 3</m></answer></exercise>
+    <answer><p><m>h \lt 3</m></p></answer></exercise>
 
 <exercise><statement><p>Solve the equation <m>~~0.25(x+3)-0.45(x-3)=0.30</m> </p></statement>
-    <answer><m>9</m></answer></exercise>
+    <answer><p><m>9</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -113,10 +113,10 @@ the height of a basketball above the ground, <m>h</m>, in feet, is given by
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve the equation <m>~~\dfrac{4.8}{w}=3</m> </p></statement>
-    <answer><m>1.6</m></answer></exercise>
+    <answer><p><m>1.6</m></p></answer></exercise>
 
 <exercise><statement><p>Solve the equation <m>~~18=36\sqrt{q}</m> </p></statement>
-    <answer><m>\dfrac{1}{4}</m></answer></exercise>
+    <answer><p><m>\dfrac{1}{4}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -187,4 +187,3 @@ the height of a basketball above the ground, <m>h</m>, in feet, is given by
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

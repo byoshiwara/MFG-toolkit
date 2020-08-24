@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="GraphingPolynomials" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Graphing Polynomial Functions</title>
                  
 <subsection><title>1. Factor polynomials</title>
 
-<intorduction><p>Factoring can help us analyze a polynomial.  In particular, for polynomials in one variable, factoring may help us find the <m>x</m>-intercepts of the graph.</p></intorduction>
+<introduction><p>Factoring can help us analyze a polynomial.  In particular, for polynomials in one variable, factoring may help us find the <m>x</m>-intercepts of the graph.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -42,22 +41,22 @@ Thus, <m>~8x^2-21x-9 = (x-3)(8x+3).</m></p></solution></example>
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Factor completely <m>~18a^2b-9ab-27b</m></p></statement>
-<answer><m>9b(2a-3)(a+1)</m></answer></exercise>
+<answer><p><m>9b(2a-3)(a+1)</m></p></answer></exercise>
 
 <exercise><statement><p>Factor completely <m>~4x^3+12x^2y+8xy^2</m></p></statement>
-<answer><m>4x(x+2y)(x+y)</m></answer></exercise>
+<answer><p><m>4x(x+2y)(x+y)</m></p></answer></exercise>
 
 <exercise><statement><p>Factor completely <m>~9x^3y+9x^2y^2-18xy^3</m></p></statement>
-<answer><m>9xy(x+2y)(x-y)</m></answer></exercise>
+<answer><p><m>9xy(x+2y)(x-y)</m></p></answer></exercise>
 
 <exercise><statement><p>Factor completely <m>~12b^3y^2+15b^2y+3b</m></p></statement>
-<answer><m>3b(4by+1)(by+1)</m></answer></exercise>
+<answer><p><m>3b(4by+1)(by+1)</m></p></answer></exercise>
 
 <exercise><statement><p>Factor completely <m>~5x^2-14x-24</m></p></statement>
-<answer><m>(5x+6)(x-4)</m></answer></exercise>
+<answer><p><m>(5x+6)(x-4)</m></p></answer></exercise>
 
 <exercise><statement><p>Factor completely <m>~12t^2-10t-50</m></p></statement>
-<answer><m>2(2t-5)(3t+5)</m></answer></exercise>
+<answer><p><m>2(2t-5)(3t+5)</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -65,7 +64,7 @@ Thus, <m>~8x^2-21x-9 = (x-3)(8x+3).</m></p></solution></example>
 
 <introduction><p>Here is more practice using formulas to factor the special quadratic and cubic polynomials.</p>
 
-    <p><assemblage><title>Quadratic Polynomials</title>
+    <assemblage><title>Quadratic Polynomials</title>
         <p><ol label="1">
             <li><m>(a+b)^2=a^2+2ab+b^2</m></li>
             <li><m>(a-b)^2=a^2-2ab+b^2</m></li>
@@ -77,7 +76,7 @@ Thus, <m>~8x^2-21x-9 = (x-3)(8x+3).</m></p></solution></example>
             <li><m>(x+y)^3=x^3+3x^2y+3xy^2+y^3</m></li>
             <li><m>(x-y)^3=x^3-3x^2y+3xy^2-y^3</m></li>
             <li><m>x^3+y^3=(x+y)(x^2-xy+y^2)</m></li>
-            <li><m>x^3-y^3=(x-y)(x^2+xy+y^2)</m></li></ol></p></assemblage></p></introduction>
+            <li><m>x^3-y^3=(x-y)(x^2+xy+y^2)</m></li></ol></p></assemblage></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -101,16 +100,16 @@ Thus,
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Factor <m>~a^6-4a^3b+4b^2</m> </p></statement>  
-    <answer><m>(a^3-2b)^2</m></answer></exercise>
+    <answer><p><m>(a^3-2b)^2</m></p></answer></exercise>
 
 <exercise><statement><p>Factor <m>~m^2+30m+225</m> </p></statement>
-    <answer><m>(m+15)^2</m></answer></exercise>
+    <answer><p><m>(m+15)^2</m></p></answer></exercise>
 
 <exercise><statement><p>Factor <m>~125a^{12}+1</m> </p></statement>  
-    <answer><m>(5a^4+1)(25a^8-5a^4+1)</m></answer></exercise>
+    <answer><p><m>(5a^4+1)(25a^8-5a^4+1)</m></p></answer></exercise>
 
 <exercise><statement><p>Factor <m>~64p^3-q^6</m> </p></statement>
-    <answer><m>(4p-q^2)(16p^2+4pq^2+q^4)</m></answer></exercise>
+    <answer><p><m>(4p-q^2)(16p^2+4pq^2+q^4)</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -122,40 +121,48 @@ Thus,
 
 <example><statement><p>Divide <m>~\dfrac{2x^2+x-7}{x+3}</m> </p></statement>
     
-<solution><p>First write
-    <md><mrow>\require{enclose}x+3 \enclose{longdiv}{2x^2+x-7}\kern-.2ex </mrow></md>
- and divide <m>2x^2</m> (the first term of the numerator) by <m>x</m> (the first term of the denominator) to obtain <m>x</m>.  (It may be helpful to write down the division: <m>\dfrac{2x^2}{x}=2x</m>.)  Write <m>\alert{2x}</m> above the quotient bar as the first term of the quotient, as shown below.</p>
-<p>Next, multiply <m>x+3</m> by <m>2x</m> to obtain <m>2x^2+6x</m>, and subtract this product from <m>2x^2+x-7</m>.
-    <md><mrow>\require{enclose}
-                \begin{array}[t]{rll}
-                    \alert{2x} \hphantom{1+x-7}&amp;&amp;  \\[-3pt]
-                   x+3 \enclose{longdiv}{2x^2+x-7}\kern-.2ex \\[-3pt]
-                  \underline{-(2x^2+6x)\phantom{11}} &amp;&amp; \blert{\text{Multiply } x+3 \text{ by } 2x \text{, and}}\\[-3pt]
-                  -5x-7 &amp;&amp; \blert{\text{subtract the result}.}
-              \end{array}</mrow></md>
-Repeating the process, divide <m>-5x</m> by <m>x</m> to obtain <m>-5</m>.  Write <m>-5</m> as the second term of the quotient.  Then multiply <m>x+3</m> by <m>-5</m> to obtain <m>-5x-15</m>, and subtract:
-        <md><mrow>\require{enclose}
-                    \begin{array}[t]{rll}
-                        2x\alert{-5} \hphantom{x-11}&amp;&amp;  \\[-3pt]
-                       x+3 \enclose{longdiv}{2x^2+x-7}\kern-.2ex \phantom{11}&amp;&amp; \\[-3pt]
-                      \underline{-(2x^2+6x)\phantom{11}} \phantom{11}&amp;&amp; \\[-3pt]
-                      -5x-7\phantom{11}\\[-3pt]
-                      \underline{-(-5x-15)} &amp;&amp; \blert{\text{Multiply } x+3 \text{ by }{-5} \text{, and}}  \\[-3pt]
-                      8\phantom{11}  &amp;&amp;\blert{\text{subtract the result}.}
-                  \end{array}</mrow></md>
-The remainder is 8. Because the degree of 8 is less than the degree of <m>x+3</m>, the division is finished.  The quotient is <m>2x-5</m>, with a remainder of 8.  We write the remainder as a fraction to obtain
-        <me>\dfrac{2x^2+x-7}{x+3} = 2x-5 + \dfrac{8}{x+3}</me></p></solution></example>
+<solution>
+<p>
+    First write
+    <me>\require{enclose}x+3 \enclose{longdiv}{2x^2+x-7}\kern-.2ex </me>
+    and divide <m>2x^2</m> (the first term of the numerator) by <m>x</m> (the first term of the denominator) to obtain <m>x</m>.  (It may be helpful to write down the division: <m>\dfrac{2x^2}{x}=2x</m>.)  Write <m>\alert{2x}</m> above the quotient bar as the first term of the quotient, as shown below.
+</p>
+<p>
+    Next, multiply <m>x+3</m> by <m>2x</m> to obtain <m>2x^2+6x</m>, and subtract this product from <m>2x^2+x-7</m>.
+    <me>\require{enclose}
+        \begin{array}[t]{rll}
+            \alert{2x} \hphantom{1+x-7}&amp;&amp;  \\[-3pt]
+           x+3 \enclose{longdiv}{2x^2+x-7}\kern-.2ex \\[-3pt]
+          \underline{-(2x^2+6x)\phantom{11}} &amp;&amp; \blert{\text{Multiply } x+3 \text{ by } 2x \text{, and}}\\[-3pt]
+          -5x-7 &amp;&amp; \blert{\text{subtract the result}.}
+        \end{array}
+    </me>
+    Repeating the process, divide <m>-5x</m> by <m>x</m> to obtain <m>-5</m>.  Write <m>-5</m> as the second term of the quotient.  Then multiply <m>x+3</m> by <m>-5</m> to obtain <m>-5x-15</m>, and subtract:
+    <me>\require{enclose}
+        \begin{array}[t]{rll}
+            2x\alert{-5} \hphantom{x-11}&amp;&amp;  \\[-3pt]
+           x+3 \enclose{longdiv}{2x^2+x-7}\kern-.2ex \phantom{11}&amp;&amp; \\[-3pt]
+          \underline{-(2x^2+6x)\phantom{11}} \phantom{11}&amp;&amp; \\[-3pt]
+          -5x-7\phantom{11}\\[-3pt]
+          \underline{-(-5x-15)} &amp;&amp; \blert{\text{Multiply } x+3 \text{ by }{-5} \text{, and}}  \\[-3pt]
+          8\phantom{11}  &amp;&amp;\blert{\text{subtract the result}.}
+        \end{array}
+    </me>
+    The remainder is 8. Because the degree of 8 is less than the degree of <m>x+3</m>, the division is finished.  The quotient is <m>2x-5</m>, with a remainder of 8.  We write the remainder as a fraction to obtain
+    <me>\dfrac{2x^2+x-7}{x+3} = 2x-5 + \dfrac{8}{x+3}</me>
+</p></solution>
+</example>
+
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Divide <m>~\dfrac{4x^2+12x+7}{2x+1}</m></p></statement>
-    <answer><m>2x+5+\dfrac{2}{2x+1}</m></answer></exercise>
+    <answer><p><m>2x+5+\dfrac{2}{2x+1}</m></p></answer></exercise>
 
 <exercise><statement><p>Divide <m>~\dfrac{8z^4+4z^2+5z+3}{2z+1}</m></p></statement>
-    <answer><m>4z^3-2z^2+3z+1+\dfrac{2}{2z+1}</m></answer></exercise>
+    <answer><p><m>4z^3-2z^2+3z+1+\dfrac{2}{2z+1}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

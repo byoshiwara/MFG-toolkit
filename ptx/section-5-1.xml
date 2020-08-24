@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="InverseFunctions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 5.1 Inverse Functions</title>
                  
@@ -26,7 +25,7 @@
         <li><m>p=f^{-1}(T)</m></li>
         <li>The graph of <m>T=f(p)=1.15p</m> is linear, and so passes the horizontal line test.</li>
         <li>A function that passes the horizontal line test is one-to-one: for each value of <m>p</m> there is only one value of <m>T</m>, and vice versa.</li>
-        <li><sidebyside  width="40%"><image source="images/fig-5-1-1.svg"><description>lines</description></image></sidebyside>  </li></ol>
+        <li><sidebyside  width="40%"><image source="images/fig-5-1-1"><description>lines</description></image></sidebyside>  </li></ol>
     </p></answer></exercise>
 </subsubsection>
 </subsection>
@@ -61,16 +60,16 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve <m>~y=5-4\sqrt{x+2}~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
-    <answer><m>x=\dfrac{(y-5)^2}{16}-2</m></answer></exercise>
+    <answer><p><m>x=\dfrac{(y-5)^2}{16}-2</m></p></answer></exercise>
 
 <exercise><statement><p>Solve <m>~y=\dfrac{3}{\sqrt[3]{x+6}}~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
-    <answer><m>x=\dfrac{27}{y^3}-6</m></answer></exercise>
+    <answer><p><m>x=\dfrac{27}{y^3}-6</m></p></answer></exercise>
 
 <exercise><statement><p>Solve <m>~y=(2x-3)^3+1~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
-    <answer><m>x=\dfrac{1}{2}\left(3+\sqrt[3]{y-1}\right)</m></answer></exercise>
+    <answer><p><m>x=\dfrac{1}{2}\left(3+\sqrt[3]{y-1}\right)</m></p></answer></exercise>
 
 <exercise><statement><p>Solve <m>~y=\dfrac{3x-1}{2x+1}~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
-    <answer><m>x=\dfrac{y+1}{3-2y}</m></answer></exercise>
+    <answer><p><m>x=\dfrac{y+1}{3-2y}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 

@@ -35,16 +35,16 @@ Substituting 7 into <m>x-1</m>, we see that 7 does not cause the denominator to 
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve <m>~\sqrt[3]{2x-7}=-2</m>.</p></statement>
-<answer><m>x=\dfrac{-1}{2}</m></answer></exercise>
+<answer><p><m>x=\dfrac{-1}{2}</m></p></answer></exercise>
 
 <exercise><statement><p>Solve <m>~|x-4|=3</m>.</p></statement>
-<answer><m>x=7</m> or <m>x=1</m></answer></exercise>
+<answer><p><m>x=7</m> or <m>x=1</m></p></answer></exercise>
 
 <exercise><statement><p>Let <m>~~F(x)=5x^3-2~</m>. Find <m>t</m> so that <m>F(t)=8</m>.</p></statement>
-<answer><m>x=\sqrt[3]{2}</m></answer></exercise>
+<answer><p><m>x=\sqrt[3]{2}</m></p></answer></exercise>
 
 <exercise><statement><p>Let <m>~~g(x)\dfrac{3}{x^2}~</m>. Find <m>b</m> so that <m>g(b)=16</m>.</p></statement>
-<answer><m>b=\pm \dfrac{\sqrt{3}}{4}</m></answer></exercise>
+<answer><p><m>b=\pm \dfrac{\sqrt{3}}{4}</m></p></answer></exercise>
 
 </subsubsection>
 </subsection>

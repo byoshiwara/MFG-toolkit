@@ -36,10 +36,10 @@ can be expressed in symbols as
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Monica has saved $7800 to live on while she attends college.  She spends $600 a month.  Write a function for the amount, <m>S</m>, in Monica's savings account after <m>t</m> months.</p></statement>
-    <answer><m>b=7800~~</m> and <m>~~m=-400~~</m>, so <m>~~S=7800-600t</m></answer></exercise>
+    <answer><p><m>b=7800~~</m> and <m>~~m=-400~~</m>, so <m>~~S=7800-600t</m></p></answer></exercise>
 
 <exercise><statement><p>Jesse opened a new doughnut shop in an old store-front. He invested $2400 in remodeling and set-up, and he makes about $400 per week from the business.  Write a function giving the shop's financial standing, <m>F</m>, after <m>w</m> weeks.</p></statement>
-    <answer><m>b=-2400~~</m> and <m>~~m=400~~</m>, so <m>~~F=-2400+400w</m></answer></exercise>
+    <answer><p><m>b=-2400~~</m> and <m>~~m=400~~</m>, so <m>~~F=-2400+400w</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -81,11 +81,11 @@ or
 
 <exercise><statement><p>Find an equation for the line of slope <m>-4</m> that passes through <m>(2,-5)</m>.
 </p></statement>
-    <answer><m>y=-4x+3</m></answer></exercise>
+    <answer><p><m>y=-4x+3</m></p></answer></exercise>
 
 <exercise><statement><p>Find an equation for the line of slope <m>\dfrac{2}{3}</m> that passes through <m>(-6,1)</m>.
 </p></statement>
-    <answer><m>y=\dfrac{2}{3}x+5</m></answer></exercise>
+    <answer><p><m>y=\dfrac{2}{3}x+5</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
